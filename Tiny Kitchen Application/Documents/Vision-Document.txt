@@ -1,151 +1,183 @@
-﻿Tiny Kitchen Vision
+Tiny Kitchen Vision Document 
 4600-12
 Autumn Hale
 Laura Lopez
 Victoria Senn
 
 1: Introduction
-
+-------------------------------------------------------------------------------
 o 1.1 Purpose
+------------------------------
 ▪ The purpose of this vision document is to identify, analyze, and define all 
 requirements and features of the Tiny Kitchen Application, as well as all 
-restrictions it may entail. It focuses on the capabilities needed by the stakeholders 
-and the target users, and why these needs exist. The details of how Tiny Kitchen 
-Application fulfills these needs are detailed in the summary of capabilities. The 
-details of constraints, assumptions, dependencies, and other product requirements 
-are outlined in this document in order to provide a clear overview of the Tiny 
-Kitchen’s limitations in advance. 
+restrictions it may entail. It focuses on the capabilities needed by the 
+stakeholders and the target users, and why these needs exist. The details 
+of how Tiny Kitchen Application fulfills these needs are detailed in the 
+summary of capabilities. The details of constraints, assumptions, dependencies, 
+and other product requirements are outlined in this document in order to provide 
+a clear overview of the Tiny Kitchen’s limitations in advance.  
+
 o 1.2 Scope 
-▪ This Vision Document is constructed for the Tiny Kitchen Application, which 
-will be developed by Autumn Hale, Laura Lopez, and Victoria Senn. These 
-stakeholders will develop the web application to work on the latest version of 
-Google Chrome browsers on the latest version of Windows computers. The Tiny 
-Kitchen will allow anyone with dietary restrictions, little time, and/or meal 
-coordination needs to easily choose and plan their meals with others. This vision 
-document represents an ideal set of features and depends on time and further 
-design decisions which may change the project. 
+------------------------------
+▪ This Vision Document is constructed for the Tiny Kitchen Application,
+which will be developed by Autumn Hale, Laura Lopez, and Victoria Senn. 
+These stakeholders will develop the WPF application to work on the latest 
+version of Windows computers. The Tiny Kitchen will allow anyone with 
+dietary restrictions, little time, and/or meal coordination needs to 
+easily choose and plan their meals. This vision document represents an 
+ideal set of features and depends on time and further design decisions 
+which may change the project.  
 
 2: Positioning
-
+-------------------------------------------------------------------------------
 o 2.1 Business opportunity
-▪ Many people struggle with balancing work, school, and other obligations. It can 
-be difficult for households to decide what to cook, especially with picky eaters, 
-limited budget, or dietary restrictions. Tiny Kitchen helps everyone choose and 
-plan meals with ease. Our website offers users a large selection of recipes to 
-choose from based on their guidelines, such as dietary restrictions and current 
-pantry stock. Users can easily plan meals with others through an interactive 
-calendar in order to save time and money. 
+------------------------------
+▪ Many people struggle with balancing work, school, and other obligations.
+It can be difficult for households to decide what to cook, especially with 
+picky eaters, limited budget, or dietary restrictions. Tiny Kitchen helps 
+everyone choose and plan meals with ease. Our application offers users a 
+large selection of recipes to choose from based on their guidelines, 
+such as dietary restrictions and current pantry stock. Users can easily 
+plan meals using a calendar and file system in order to save time and money.  
+
 o 2.2 Problem statement
+------------------------------
 ▪ The problem of meal preparation and planning affects college students, families, 
 those with dietary restrictions, and many others. The impact of the problem is 
 uncoordinated schedules, bad eating habits, and stress-filled individuals. A 
 successful solution would include a meal planning application that provides 
-recipes based on search criteria and a group-shared meal calendar all-in-one. 
+recipes based on search criteria and the ability to create virtual recipe cards.
 
 3: Stakeholder and user descriptions
-
+-------------------------------------------------------------------------------
 o 3.2 Stakeholder Summary
+------------------------------
 ▪ Autumn Hale is a stakeholder in the Tiny Kitchen Application. She represents 
 “Team Tiny Kitchen,” which is part of the Introduction to Software Engineering 
 class at Austin Peay State University. She is taking on the roles of Software 
 Engineer, Software Tester, and Architect of the system, and therefore will be part 
 of all processes in the application. 
+
 ▪ Victoria Senn is a stakeholder in the Tiny Kitchen Application. She represents 
 “Team Tiny Kitchen,” which is part of the Introduction to Software Engineering 
 class at Austin Peay State University. She is taking on the roles of Software 
 Engineer, Software Tester, and Architect of the system, and therefore will be part 
 of all processes in the application.
+
 ▪ Laura Lopez is a stakeholder in the Tiny Kitchen Application. She represents 
 “Team Tiny Kitchen,” which is part of the Introduction to Software Engineering 
 class at Austin Peay State University. She is taking on the roles of Software 
 Engineer, Software Tester, and Architect of the system, and therefore will be part 
 of all processes in the application.
+
 ▪ Dr. Hasan is a stakeholder in the Tiny Kitchen Application. He represents Austin 
 Peay State University and is the professor of the Introduction to Software 
 Engineering class. He is the primary supervisor for all stages of the software 
 being produced. The software will be under a series of checks for its lifecycle. 
+
 o 3.3 User Summary
+------------------------------
 ▪ College students will be primary end users of the system and will use the 
-application to find recipes, schedule their meals, and collaborate with other users.
-▪ Single or large families will be primary end users of the system and will use the 
-application to find recipes, schedule their meals, and collaborate with other users.
-▪ Those with dietary restrictions will be primary end users of the system and will 
-use the application to find recipes based on their eating lifestyle (gluten-free, 
-dairy-free, keto, etc.). 
+application to find recipes, save recipes, email recipes, and schedule their 
+meals according to dietary needs. 
+
+▪ Single or large families will be primary end users of the system and will
+use the application to find recipes, save recipes, email recipes, and schedule
+their meals according to dietary needs. 
+
+▪ Those with dietary restrictions will be primary end users of the system and 
+will use the application to find recipes based on their eating lifestyle 
+(gluten-free, dairy-free, keto, low calorie, etc.).  
+
 ▪ Roommates will be primary end users of the system and will use the application 
-to collaborate with each other on their meal schedule. 
+to find recipes, save recipes, email recipes, and schedule their meals according 
+to dietary needs. 
+
+▪ Elderly people will be the primary end users of the system and will use the 
+application to find recipes, save recipes, email recipes, and schedule their 
+meals according to dietary needs. 
 
 4: Product overview
-
+-------------------------------------------------------------------------------
 o 4.1 Product perspective
+------------------------------
 ▪ For people who want structured meal planning, who are short on time and need 
-meal ideas. The Tiny Kitchen Application is a recipe management system that 
-acts as a central hub for all things meal planning. Unlike Pinterest, our product 
-includes an integrated calendar and is tailored specifically towards meal planning 
-by providing recipes from user specifications. 
+meal ideas. The Tiny Kitchen Application is a recipe management system that acts 
+as a central hub for all things meal planning. Unlike competitors, our product 
+requires no internet access for specific local features, creates local copies of 
+your saved recipes, and is tailored specifically towards meal planning by providing 
+recipes from user specifications (through internet access). It also allows for optional
+calorie focused meal planning.  
+
 o 4.2 Summary of capabilities
-Customer Benefit Supporting Features
-▪ Recipe search based on given criteria. Edamam API allows recipe searches based on 
-given criteria. 
-▪Personal Recipe Collections. Customizable collections accessible only by the 
-user that made them.
-▪Shared Recipe Collections. Shared collections that are invite-only and allow 
-collaboration.
-▪Personal calendar for private and organized meal 
-planning. Weekly calendar view that allows recipes to be 
-slotted inside, and color coded.
-▪Collaborative calendar to schedule their meals. Weekly calendar view that allows recipes to be 
-slotted inside and color coded. Accessible to the creator and anyone they invite. 
+------------------------------
+Customer Benefit -- TO -- >  Supporting Features 
+
+Recipe search based on given criteria --- > Edamam API allows recipe searches based on given criteria.  
+
+Personal Recipe Collections --- > Customizable collections accessible only by the user that made them. 
+
+Shared Recipes --- > Recipes shared via email and are view-only.  
+
+Personal calendar for private meal planning --- > Weekly calendar view that allows for recipe planning alongside it.  
+
+Recipe Creation --- > Recipes can be created multiple ways and saved locally. 
+
 o 4.3 Assumptions and dependencies
+------------------------------
 ▪ Tiny Kitchen assumes that users are on a Windows computer that is fully up to 
 date. If the Windows software is not up to date, or if Windows software fails/is 
 no longer supported, Tiny Kitchen may or may not deliver the full user 
 experience as outlined in this document. 
-▪ Tiny Kitchen assumes that users will run the application on the latest version of 
-the Google Chrome browser. If the Google Chrome browser is not up to date, or 
-if the Google Chrome fails/is no longer supported, Tiny Kitchen may or may not 
-deliver the full user experience as outlined in this document. 
 ▪ Tiny Kitchen uses Edamam’s free API to deliver personalized recipe ideas to 
 users. If Edamam exceeds 10,000 requests, fails/is no longer supported, or is 
 changed, Tiny Kitchen may or may not deliver the full user experience as 
 outlined by this document. 
-▪ Tiny Kitchen requires internet access. Tiny Kitchen assumes users possess basic 
-reading and writing skills in order to fully utilize the application. 
+▪ Tiny Kitchen requires internet access for select features.
+▪ Tiny Kitchen assumes users possess basic reading and writing skills in 
+order to fully utilize the application. 
 ▪ Tiny Kitchen assumes the users speak or understand English at a proficient level 
 in order to fully utilize the application. 
+▪ Tiny Kitchen assumes that users possess a basic understanding of how files are 
+saved onto a computer and they can navigate through basic PC dialogue prompts 
+that the Tiny Kitchen Application suggests.  
 ▪ Tiny Kitchen may not allow for screen reading capabilities for users who may 
 need this feature in order to fully utilize the application. 
 
 5: Product features 
+-------------------------------------------------------------------------------
+o 5.1 Create recipe card(s): Users can create their own recipe cards on Tiny Kitchen. 
 
-o 5.1 Create an account: Users have the option to create an account in order to gain access 
-to Tiny Kitchen’s full capabilities. 
-o 5.2 Recipe collection(s): Users can create, edit, and delete recipe collections. Users can 
-add, delete, or edit recipes in their recipe collections.
-o 5.3 Recipe search filter: Users can search for recipes based on certain filers they select 
-from, including their own current pantry stock.
-o 5.4 Pantry stock: Users can add, delete, or edit items in their pantry stock collection 
-according to their actual pantry or kitchen stock.
-o 5.5 Add users as a friend: Users can add others as a friend in order to allow for easier 
-meal planning.
-o 5.6 Sharing collections: Users can share collections of recipes saved with others. All 
-users who have access to the collection have full access to add, delete, and edit recipe 
-cards saved to those collections. 
-o 5.7 Calendar access: Users can add recipes from their collection to a personal or shared 
-calendar in order to plan recipes on a weekly basis. 
-o 5.8 Generate shopping list: From their calendar users will be able to generate a shopping 
-list for their planned week, which will list all the ingredients needed. 
-o 5.9 Calendar collaboration: Users can add friends to their calendar in order to plan meals 
-together on a monthly basis. 
-o 5.10 Notes: Users can add notes on their calendar(s) in order to suggest recipes and/or 
-write out ideas. 
+o 5.2 Recipe collection(s): Users can create, edit, and delete recipe collections 
+saved on their computer using Tiny Kitchen. Users can create, edit, and delete 
+recipes saved on their computer using Tiny Kitchen.  
+
+o 5.3 Recipe search filter: Users can search for recipes based on certain filers 
+they select from, including their own current pantry stock. 
+
+o 5.4 Pantry stock: Users can add, delete, or edit items in their pantry stock 
+collection according to their actual pantry or kitchen stock. 
+
+o 5.5 Calorie Count: Users can toggle an optional calorie count view for recipes.  
+
+o 5.6 Sharing recipes: Users can share recipes saved with others via email. 
+
+o 5.7 Calendar access: Users can reference integrated calendar chart to 
+plan their meals accordingly.  
+
+o 5.8 Generate shopping list: Users will be able to create a shopping list that 
+will link them to a website of their choice with those same items in the website’s cart. 
+
+o 5.9 API recipe cards: Users can save recipes generated by the Edamam API to their computer.  
+
+o 5.10 Notes: Users can add notes on their calendar(s) in order to 
+suggest recipes and/or write out ideas.  
 
 • 6: Constraints
-
+-------------------------------------------------------------------------------
 o 6.1 System-Supported Platforms: System will be developed using platform tools 
 supported by Windows OS.
-o 6.2 Browser Compatibility: System will be web-based utilizing most recent version of 
-Chrome.
+o 6.2 Wi-Fi Access: System requires Wi-Fi access for certain features and capabilities.
 o 6.3 Accessibility: System may not have full capabilities for screen readers or accessibility 
 other software or settings such as dark mode. 
 o 6.4 Use of Existing Services: System will utilize Edamam API where possible.
