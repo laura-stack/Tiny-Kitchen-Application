@@ -1,0 +1,78 @@
+---Tiny Kitchen Requirements---
+
+Team members
+------------
+Autumn Hale
+Laura Lopez
+Victoria Senn
+
+Purpose
+------------
+Tiny Kitchen helps everyone choose and plan meals with ease. 
+Our application offers users a large selection of recipes to 
+choose from based on given guidelines, such as dietary 
+restrictions and current pantry stock. Users can easily plan 
+meals using a calendar and file system in order to save 
+time and money.  
+
+Requirements
+------------
+1. Name: 
+   Type: 
+   Summary: 
+
+2. Name: 
+   Type:
+   Summary: 
+
+3. Name: 
+   Type: 
+   Summary: 
+
+3. Name: 
+   Type: 
+   Summary: 
+
+4. Name: 
+   Type: 
+   Summary: 
+
+5. Name: 
+   Type: 
+   Summary: 
+
+6. Name: 
+   Type: 
+   Summary: 
+
+7. Name: 
+   Type: 
+   Summary: 
+
+8. Name: 
+   Type: 
+   Summary: 
+
+9. Name: 
+   Type: 
+   Summary: 
+
+10. Name: 
+   Type: 
+   Summary: 
+
+11. Name: 
+   Type: 
+   Summary: 
+
+12. Name: 
+   Type: 
+   Summary: 
+
+13. Name: 
+   Type: 
+   Summary: 
+
+14. Name: 
+   Type: 
+   Summary: 
