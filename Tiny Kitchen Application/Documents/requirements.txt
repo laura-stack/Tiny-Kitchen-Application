@@ -17,25 +17,25 @@ time and money.
 
 Requirements
 ------------
-1. Name: 
-   Type: 
-   Summary: 
+1. Name: add_recipe
+   Type: functional
+   Summary: Users should be able to add recipe cards from the Edamam API to their personal Tiny Kitchen Application. 
 
-2. Name: 
-   Type:
-   Summary: 
+2. Name: create_recipe
+   Type: functional
+   Summary: Users should be able to create their own recipe cards and be able to store them to their personal Tiny Kitchen Application.
 
-3. Name: 
-   Type: 
-   Summary: 
+3. Name: delete_recipe
+   Type: functional
+   Summary: Users should be able to remove recipe cards from their personal Tiny Kitchen Application. 
 
-3. Name: 
-   Type: 
-   Summary: 
+3. Name: filter_recipe
+   Type: functional
+   Summary: Users should be able to search for recipes based on certain criteria using the Edamam API. 
 
-4. Name: 
-   Type: 
-   Summary: 
+4. Name: view_calories
+   Type: functional
+   Summary: Users should be able to see calorie count of recipes unless they opt out of feature.
 
 5. Name: 
    Type: 
