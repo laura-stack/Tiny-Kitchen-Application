@@ -37,29 +37,32 @@ Requirements
    Type: functional
    Summary: Users should be able to see calorie count of recipes unless they opt out of feature.
 
-5. Name: 
-   Type: 
-   Summary: 
+5. Name: platform_os
+   Type: constraint
+   Summary: The Tiny Kitchen application is targeted for Windows platforms version 10 or later. 
 
-6. Name: 
-   Type: 
-   Summary: 
+6. Name: internet_access
+   Type: constraint
+   Summary: Users must have access to internet for certain features of the Tiny Kitchen application to function properly. 
 
-7. Name: 
-   Type: 
-   Summary: 
+7. Name: recipe_collection_management
+   Type: functional
+   Summary: Users should be able to create, edit, and delete recipe collections saved on their computer using Tiny Kitchen. 
+   
+8. Name: pantry_management
+   Type: functional
+   Summary:  Users should be able to add, delete, or edit items in their pantry stock collection according to their kitchen stock. 
 
-8. Name: 
-   Type: 
-   Summary: 
-
-9. Name: 
-   Type: 
-   Summary: 
-
-10. Name: 
-   Type: 
-   Summary: 
+9. Name: access_limitations
+   Type: constraint
+   Summary: Tiny Kitchen may not have full capabilities for accessability tools such as screen readers. Tiny Kitchen may not have 
+   quality of life features such as dark mode, native magnification, text highlighting, etc. Tiny Kitchen requires users have
+   a basic understanding of English and computer navigation. 
+   
+10. Name: api_connection
+   Type: risk
+   Summary: Tiny Kitchen should utilize the Edamam API in order to provide full capabilities to users. Considered a risk, 
+   as the API may no longer be supported at any point or may exceed maxiumum number of calls allowed. 
 
 11. Name: 
    Type: 
@@ -74,5 +77,9 @@ Requirements
    Summary: 
 
 14. Name: 
+   Type: 
+   Summary: 
+   
+15. Name: 
    Type: 
    Summary: 
