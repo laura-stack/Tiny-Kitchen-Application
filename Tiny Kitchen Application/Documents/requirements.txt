@@ -17,69 +17,93 @@ time and money.
 
 Requirements
 ------------
-1. Name: add_recipe
+   1. Name: add_recipe
    Type: functional
    Summary: Users should be able to add recipe cards from the Edamam API to their personal Tiny Kitchen Application. 
 
-2. Name: create_recipe
+   2. Name: create_recipe
    Type: functional
    Summary: Users should be able to create their own recipe cards and be able to store them to their personal Tiny Kitchen Application.
 
-3. Name: delete_recipe
+   3. Name: delete_recipe
    Type: functional
    Summary: Users should be able to remove recipe cards from their personal Tiny Kitchen Application. 
+   
+   4. Name: share_recipe
+   Type: functional
+   Summary: Users should be able to share recipie via email.
 
-3. Name: filter_recipe
+   5. Name: filter_recipe
    Type: functional
    Summary: Users should be able to search for recipes based on certain criteria using the Edamam API. 
 
-4. Name: view_calories
+   6. Name: view_calories
    Type: functional
    Summary: Users should be able to see calorie count of recipes unless they opt out of feature.
 
-5. Name: platform_os
+   7. Name: create_recipe_collection
+   Type: functional
+   Summary: Users should be able to create a recipe collection to be  saved on their computer using Tiny Kitchen. 
+   
+   8. Name: delete_recipe_collection
+   Type: functional
+   Summary: Users should be able to delete a recipe collection from Tiny Kitchen. 
+   
+   9. Name: edit_recipe_collection
+   Type: functional
+   Summary: Users should be able to edit a recipe collection using Tiny Kitchen. 
+   
+   10. Name: add_pantry_item
+   Type: functional
+   Summary:  Users should be able to add items to their pantry stock collection according to their real world kitchen stock.
+   
+   11. Name: delete_pantry_item
+   Type: functional
+   Summary:  Users should be able to delete items from their pantry stock collection according to their real world kitchen stock.
+   
+   12. Name: edit_calendar
+   Type: functional
+   Summary: Users should be able to edit their calendar.
+   
+   13. Name: add_recipie_to_cal
+   Type: functional
+   Summary: Users should be able to add a recipie to their calendar.
+   
+   14. Name: delete_recipie_from_cal
+   Type: functional
+   Summary: Users should be able to delete a recipie from their calendar. 
+   
+   15. Name: create_list_from_cal
+   Type: functional
+   Summary: Users should be able to create a shopping list from their meals added to the calendar. 
+   
+   16. Name: buy_from_list
+   Type: functional
+   Summary: Users should be able to click a link that leads them to a selection of purchaseable items which match that in their list.
+   
+   17. Name: share_list
+   Type: functional
+   Summary: Users should be able to share their generated shopping list via email.
+   
+   18. Name: share_cal
+   Type: functional
+   Summary: Users should be able to share their calendar via email.
+   
+   19. Name: platform_os
    Type: constraint
    Summary: The Tiny Kitchen application is targeted for Windows platforms version 10 or later. 
 
-6. Name: internet_access
+   20. Name: internet_access
    Type: constraint
    Summary: Users must have access to internet for certain features of the Tiny Kitchen application to function properly. 
 
-7. Name: recipe_collection_management
-   Type: functional
-   Summary: Users should be able to create, edit, and delete recipe collections saved on their computer using Tiny Kitchen. 
-   
-8. Name: pantry_management
-   Type: functional
-   Summary:  Users should be able to add, delete, or edit items in their pantry stock collection according to their kitchen stock. 
-
-9. Name: access_limitations
+   21. Name: access_limitations
    Type: constraint
    Summary: Tiny Kitchen may not have full capabilities for accessability tools such as screen readers. Tiny Kitchen may not have 
    quality of life features such as dark mode, native magnification, text highlighting, etc. Tiny Kitchen requires users have
    a basic understanding of English and computer navigation. 
    
-10. Name: api_connection
+   22. Name: api_connection
    Type: risk
    Summary: Tiny Kitchen should utilize the Edamam API in order to provide full capabilities to users. Considered a risk, 
    as the API may no longer be supported at any point or may exceed maxiumum number of calls allowed. 
-
-11. Name: 
-   Type: 
-   Summary: 
-
-12. Name: 
-   Type: 
-   Summary: 
-
-13. Name: 
-   Type: 
-   Summary: 
-
-14. Name: 
-   Type: 
-   Summary: 
-   
-15. Name: 
-   Type: 
-   Summary: 
