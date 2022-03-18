@@ -18,13 +18,13 @@ time and money.
 Scenarios
 ------------
 
-	1. Scenario: User will create recipe cards.
+	1. Scenario: User will create their own recipe cards.
 	Description: 
 
 	2. Scenario: User will manage their recipe cards.
 	Description: 
 
-	3. Scenario: User will share recipe cards.
+	3. Scenario: User will share recipe cards and shopping lists.
 	Description:
 
 	4. Scenario: User will manage recipe collections.
@@ -38,7 +38,7 @@ Scenarios
 
 	7. Scenario: User will link their Tiny Kitchen shopping list to an online grocer.
 
-	8. Scenario: User will find recipes.
+	8. Scenario: User will find recipes using Edamam API.
 	Description: 
 
 	9. Scenario: User will manage recipes based on calorie count.
