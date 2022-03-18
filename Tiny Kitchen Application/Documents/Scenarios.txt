@@ -1,0 +1,48 @@
+﻿---Tiny Kitchen Scenarios---
+
+Team members
+------------
+Autumn Hale
+Laura Lopez
+Victoria Senn
+
+Purpose
+------------
+Tiny Kitchen helps everyone choose and plan meals with ease. 
+Our application offers users a large selection of recipes to 
+choose from based on given guidelines, such as dietary 
+restrictions and current pantry stock. Users can easily plan 
+meals using a calendar and file system in order to save 
+time and money.  
+
+Scenarios
+------------
+
+	1. Scenario: User will create recipe cards.
+	Description: 
+
+	2. Scenario: User will manage their recipe cards.
+	Description: 
+
+	3. Scenario: User will share recipe cards.
+	Description:
+
+	4. Scenario: User will manage recipe collections.
+	Description:
+
+	5. Scenario: User will manage their recipe calendar.
+	Description:
+	
+	6. Scenario: User will manage their at-home pantry within their application.
+	Description:
+
+	7. Scenario: User will link their Tiny Kitchen shopping list to an online grocer.
+
+	8. Scenario: User will find recipes.
+	Description: 
+
+	9. Scenario: User will manage recipes based on calorie count.
+	Description:
+
+	10. Scenario: User will create a shopping list from calendar recipe cards.
+	Description: 
