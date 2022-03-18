@@ -23,11 +23,12 @@ Scenarios
 
 	2. Scenario: User will manage their recipe cards.
 	Description: Users may interact with the Tiny Kitchen application
-	by managing recipe cards. This includes editing recipe details and 
+	by managing recipe cards post-creation. This includes editing recipe details and 
 	deleting recipe cards altogether. Management also includes the ability
 	to add recipe cards to collections, the pantry, and the calendar. 
 	Being able to manage the recipe card in a number of ways is key to 
-	Tiny Kitchen, as the recipes are the central feature of Tiny Kitchen. 
+	Tiny Kitchen, as the recipes are the central feature of Tiny Kitchen that
+	build up all other features. 
 
 	3. Scenario: User will share recipe cards and shopping list.
 	Description: Users may interact with the Tiny Kitchen application by 
