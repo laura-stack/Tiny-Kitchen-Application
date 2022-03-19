@@ -19,7 +19,10 @@ Scenarios
 ------------
 
 	1. Scenario: User will create their own recipe cards.
-	Description: 
+	Description: User will use the Tiny Kitchen application to store their personal
+	recipes in the form of recipe cards. Recipe cards of a user's own creation can 
+	and will be saved to the user's personal Tiny Kitchen application and can be 
+	saved in association with recipe cards already created by the Edamam API.
 
 	2. Scenario: User will manage their recipe cards.
 	Description: Users may interact with the Tiny Kitchen application
@@ -42,15 +45,32 @@ Scenarios
 	quality and usefulness of Tiny Kitchen overall.
 
 	4. Scenario: User will manage recipe collections.
-	Description:
+	Description: Users may interact with the Tiny Kitchen application
+	by managing their recipe collections post-creation. Recipe collections
+	will comprise of recipe cards the user chooses to store in a particular 
+	collection. Users are able to create recipe collections based on their 
+	organizational preference. Users will be able to edit their recipe collection 
+	which includes adding and deleting recipe cards from their recipe collections. 
+	Users can also delete a recipe collection in its entirety. 
 
 	5. Scenario: User will manage their recipe calendar.
-	Description:
+	Description: Users will be able to create a calendar in their personal Tiny
+	Kitchen application. Users may use the Tiny Kitchen application by saving recipe
+	cards under a particular calendar date. This feature will give the user the 
+	ability to add, remove, or edit recipe cards within their personal Tiny Kitchen 
+	application calendar. This is ideal for users who want to meal-prep, plan their meals,
+	or are simply running on a busy schedule. 
 	
 	6. Scenario: User will manage their at-home pantry within their application.
-	Description:
+	Description: Users will interact with the Tiny Kitchen application by adding or
+	removing items that they have in their physical pantry to their personal Tiny Kitchen
+	application. This interactive feature will allow the user to filter recipes from the
+	Edamam API based on the items they have added to their pantry stock. Users will
+	use this to their advantage to no longer struggle with what to make with the few or
+	various ingredients they may have at home. 
 
 	7. Scenario: User will link their Tiny Kitchen shopping list to an online grocer.
+	Description: 
 
 	8. Scenario: User will find recipes using Edamam API.
 	Description: 
