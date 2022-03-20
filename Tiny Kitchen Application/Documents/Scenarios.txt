@@ -23,8 +23,14 @@ Scenarios
 	recipes in the form of recipe cards. Recipe cards of a user's own creation can 
 	and will be saved to the user's personal Tiny Kitchen application and can be 
 	saved in association with recipe cards already created by the Edamam API.
+	
+	2. Scenario: User will find recipes using Edamam API.
+	Description: Users will be able to fliter recipies on the Tiny Kitchen app based on the 
+	supplied filters from the Edamam API. These filters include gluten intolerance, vegan 
+	or vegetarian, dairy free, and more general filters like max calories or a maximum number 
+	of ingredients. 
 
-	2. Scenario: User will manage their recipe cards.
+	3. Scenario: User will manage their recipe cards.
 	Description: Users may interact with the Tiny Kitchen application
 	by managing recipe cards post-creation. This includes editing recipe details and 
 	deleting recipe cards altogether. Management also includes the ability
@@ -32,18 +38,7 @@ Scenarios
 	Being able to manage the recipe card in a number of ways is key to 
 	Tiny Kitchen, as the recipes are the central feature of Tiny Kitchen that
 	build up all other features. 
-
-	3. Scenario: User will share recipe cards and shopping list.
-	Description: Users may interact with the Tiny Kitchen application by 
-	sharing recipe cards and/or shopping lists they have created using
-	Tiny Kitchen. This share feature allows users to select certain
-	recipes to be attached to an email and shared with others. It also
-	allows for the shopping list, which is created from the user's calendar
-	view, to be shared via email. This share feature is key to Tiny Kitchen, 
-	as shareability and ease of use is essential to the program. The ability
-	to share your local recipes and shopping lists with anyone allows for improved
-	quality and usefulness of Tiny Kitchen overall.
-
+	
 	4. Scenario: User will manage recipe collections.
 	Description: Users may interact with the Tiny Kitchen application
 	by managing their recipe collections post-creation. Recipe collections
@@ -53,13 +48,16 @@ Scenarios
 	which includes adding and deleting recipe cards from their recipe collections. 
 	Users can also delete a recipe collection in its entirety. 
 
-	5. Scenario: User will manage their recipe calendar.
-	Description: Users will be able to create a calendar in their personal Tiny
-	Kitchen application. Users may use the Tiny Kitchen application by saving recipe
-	cards under a particular calendar date. This feature will give the user the 
-	ability to add, remove, or edit recipe cards within their personal Tiny Kitchen 
-	application calendar. This is ideal for users who want to meal-prep, plan their meals,
-	or are simply running on a busy schedule. 
+	5. Scenario: User will share recipe cards and shopping list.
+	Description: Users may interact with the Tiny Kitchen application by 
+	sharing recipe cards and/or shopping lists they have created using
+	Tiny Kitchen. This share feature allows users to select certain
+	recipes to be attached to an email and shared with others. It also
+	allows for the shopping list, which is created from the user's calendar
+	view, to be shared via email. This share feature is key to Tiny Kitchen, 
+	as shareability and ease of use is essential to the program. The ability
+	to share your local recipes and shopping lists with anyone allows for improved
+	quality and usefulness of Tiny Kitchen overall.
 	
 	6. Scenario: User will manage their at-home pantry within their application.
 	Description: Users will interact with the Tiny Kitchen application by adding or
@@ -69,14 +67,27 @@ Scenarios
 	use this to their advantage to no longer struggle with what to make with the few or
 	various ingredients they may have at home. 
 
-	7. Scenario: User will link their Tiny Kitchen shopping list to an online grocer.
-	Description: 
+	7. Scenario: User will manage their recipe calendar.
+	Description: Users will be able to create a calendar in their personal Tiny
+	Kitchen application. Users may use the Tiny Kitchen application by saving recipe
+	cards under a particular calendar date. This feature will give the user the 
+	ability to add, remove, or edit recipe cards within their personal Tiny Kitchen 
+	application calendar. This is ideal for users who want to meal-prep, plan their meals,
+	or are simply running on a busy schedule. 
+	
+	8. Scenario: User will create a shopping list from calendar recipe cards.
+	Description: Users will be able to generate a shopping list from their calendar. This 
+	shopping list will account for their current pantry stock and show only what is remaining
+	from the recipies added to the calendar. 
+	
+	9. Scenario: User will link their Tiny Kitchen shopping list to an online grocer.
+	Description: Users will be able to click a link and be brought to an online grocer that 
+	stocks their item. This feature will bring users to a search results page that will have
+	queried based on the item that they clicked the link from. 
 
-	8. Scenario: User will find recipes using Edamam API.
-	Description: 
+	10. Scenario: User will be able to disallow calorie count.
+	Description: Users will be able to toggle calorie amounts either on or off for recipies
+	in their collections. This feature adds a level of inclusivity for those that are
+	sensitive to food restrictions or amounts.
 
-	9. Scenario: User will manage recipes based on calorie count.
-	Description:
 
-	10. Scenario: User will create a shopping list from calendar recipe cards.
-	Description: 
