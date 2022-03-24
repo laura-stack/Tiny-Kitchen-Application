@@ -4,11 +4,11 @@
   Title="Tiny Kitchen Application" Height="300" Width="300"
   Background="Black">
     <!-- Buttons arranged vertically inside a StackPanel. -->
-    <StackPanel HorizontalAlignment="Left">
+    <StackPanel>
         <Button>Add a Recipe</Button>
         <Button>Search Recipes</Button>
         <Button>Pantry Stock</Button>
-        
+
     </StackPanel>
-    
+
 </Window>
