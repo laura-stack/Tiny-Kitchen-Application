@@ -40,3 +40,5 @@ C:\Users\autum\Source\Repos\Tiny-Kitchen-Application\Tiny Kitchen Application\ob
 C:\Users\autum\Source\Repos\Tiny-Kitchen-Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.1\Tiny Kitchen Application.dll
 C:\Users\autum\Source\Repos\Tiny-Kitchen-Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.1\Tiny Kitchen Application.pdb
 C:\Users\autum\Source\Repos\Tiny-Kitchen-Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.1\Tiny Kitchen Application.genruntimeconfig.cache
+C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.1\RecipeWindow.g.cs
+C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.1\RecipeWindow.baml

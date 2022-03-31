@@ -24,5 +24,11 @@ namespace Tiny_Kitchen_Application
 		{
 			InitializeComponent();
 		}
+
+		private void RecipeButton_Click(object sender, RoutedEventArgs e)
+		{
+			RecipeWindow recipeWindow = new RecipeWindow();
+			recipeWindow.Show();
+		}
 	}
 }

@@ -5,11 +5,25 @@
   Background="Black">
     <!-- Buttons arranged vertically inside a StackPanel. -->
     <StackPanel>
-        <Button>Add a Recipe</Button>
-        <Button>Search Recipes</Button>
-        <Button>Pantry Stock</Button>
-        <Button>Help</Button>
-        <Button>Settings</Button>
+        <Button
+            
+            x:Name = "Add_a_Recipe"
+            Width= "95"
+            Click ="RecipeButton_Click" Height="30" RenderTransformOrigin="0.5, 0.5" FontFamily="Verdana">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+            <Label Content="Add a Recipe"/>
+        </Button>
+        <Button Content="Search Recipes"/>
+        <Button Content="Pantry Stock"/>
+        <Button Content="Help"/>
+        <Button Content="Settings"/>
 
     </StackPanel>
 
