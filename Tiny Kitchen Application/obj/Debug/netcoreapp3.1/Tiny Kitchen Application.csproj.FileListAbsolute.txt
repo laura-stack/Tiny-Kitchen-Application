@@ -19,3 +19,24 @@ C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\ob
 C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.1\Tiny Kitchen Application.pdb
 C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.1\Tiny Kitchen Application.genruntimeconfig.cache
 C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.1\App.baml
+C:\Users\autum\Source\Repos\Tiny-Kitchen-Application\Tiny Kitchen Application\bin\Debug\netcoreapp3.1\Tiny Kitchen Application.exe
+C:\Users\autum\Source\Repos\Tiny-Kitchen-Application\Tiny Kitchen Application\bin\Debug\netcoreapp3.1\Tiny Kitchen Application.deps.json
+C:\Users\autum\Source\Repos\Tiny-Kitchen-Application\Tiny Kitchen Application\bin\Debug\netcoreapp3.1\Tiny Kitchen Application.runtimeconfig.json
+C:\Users\autum\Source\Repos\Tiny-Kitchen-Application\Tiny Kitchen Application\bin\Debug\netcoreapp3.1\Tiny Kitchen Application.runtimeconfig.dev.json
+C:\Users\autum\Source\Repos\Tiny-Kitchen-Application\Tiny Kitchen Application\bin\Debug\netcoreapp3.1\Tiny Kitchen Application.dll
+C:\Users\autum\Source\Repos\Tiny-Kitchen-Application\Tiny Kitchen Application\bin\Debug\netcoreapp3.1\Tiny Kitchen Application.pdb
+C:\Users\autum\Source\Repos\Tiny-Kitchen-Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.1\Tiny Kitchen Application.csproj.AssemblyReference.cache
+C:\Users\autum\Source\Repos\Tiny-Kitchen-Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\autum\Source\Repos\Tiny-Kitchen-Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\autum\Source\Repos\Tiny-Kitchen-Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\autum\Source\Repos\Tiny-Kitchen-Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.1\Tiny Kitchen Application_MarkupCompile.cache
+C:\Users\autum\Source\Repos\Tiny-Kitchen-Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.1\Tiny Kitchen Application_MarkupCompile.lref
+C:\Users\autum\Source\Repos\Tiny-Kitchen-Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.1\App.baml
+C:\Users\autum\Source\Repos\Tiny-Kitchen-Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.1\Tiny Kitchen Application.g.resources
+C:\Users\autum\Source\Repos\Tiny-Kitchen-Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.1\Tiny Kitchen Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\autum\Source\Repos\Tiny-Kitchen-Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.1\Tiny Kitchen Application.AssemblyInfoInputs.cache
+C:\Users\autum\Source\Repos\Tiny-Kitchen-Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.1\Tiny Kitchen Application.AssemblyInfo.cs
+C:\Users\autum\Source\Repos\Tiny-Kitchen-Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.1\Tiny Kitchen Application.csproj.CoreCompileInputs.cache
+C:\Users\autum\Source\Repos\Tiny-Kitchen-Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.1\Tiny Kitchen Application.dll
+C:\Users\autum\Source\Repos\Tiny-Kitchen-Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.1\Tiny Kitchen Application.pdb
+C:\Users\autum\Source\Repos\Tiny-Kitchen-Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.1\Tiny Kitchen Application.genruntimeconfig.cache

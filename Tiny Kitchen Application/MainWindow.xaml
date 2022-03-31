@@ -8,6 +8,8 @@
         <Button>Add a Recipe</Button>
         <Button>Search Recipes</Button>
         <Button>Pantry Stock</Button>
+        <Button>Help</Button>
+        <Button>Settings</Button>
 
     </StackPanel>
 
