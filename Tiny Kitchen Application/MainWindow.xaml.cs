@@ -33,5 +33,6 @@ namespace Tiny_Kitchen_Application
 			recipeWindow.Height = 450;
 
 		}
+
 	}
 }
