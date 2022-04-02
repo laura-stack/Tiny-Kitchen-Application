@@ -29,6 +29,9 @@ namespace Tiny_Kitchen_Application
 		{
 			RecipeWindow recipeWindow = new RecipeWindow();
 			recipeWindow.Show();
+			recipeWindow.Width = 450;
+			recipeWindow.Height = 450;
+
 		}
 	}
 }

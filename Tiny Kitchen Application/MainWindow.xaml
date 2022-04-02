@@ -2,7 +2,7 @@
   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
   xmlns:av="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="av" x:Class="Tiny_Kitchen_Application.MainWindow"
-  Title="Tiny Kitchen Application" Height="400" Width="500"
+  Title="Tiny Kitchen Application" Height="450" Width="500"
   Background="SeaGreen">
     <Grid>
 
@@ -25,31 +25,43 @@
         <Button x:Name="FindRecipeButton" 
                 Grid.Column="1" Grid.Row="0"
                 Background="White"
-                Width="100" Height="80"
+                Width="110" Height="90"
                 FontFamily="Verdana"
-                Content="Find A Recipe"/>
+                Content="Find Recipe" 
+                VerticalAlignment="Center" 
+                FontSize="14"
+                VerticalContentAlignment="Bottom"/>
 
         <Button x:Name="RecipeCollectionButton"
                 Grid.Column="2" Grid.Row="0"
                 Background="White"  
-                Width="100" Height="80"
+                Width="110" Height="90"
                 FontFamily="Verdana"
-                Content="Collections"/>
+                Content="Collections"
+                VerticalAlignment="Center" 
+                FontSize="14"
+                VerticalContentAlignment="Bottom"/>
 
         <Button x:Name="PantryButton"
                 Grid.Column="3" Grid.Row="0"
                 Background="White"  
-                Width="100" Height="80"
+                Width="110" Height="90"
                 FontFamily="Verdana"
-                Content="Pantry"/>
+                Content="Pantry"
+                VerticalAlignment="Center" 
+                FontSize="14"
+                VerticalContentAlignment="Bottom"/>
 
         <Button x:Name = "AddRecipeButton"
             Grid.Column="0" Grid.Row="0"
             Background="White" 
-            Width= "100" Height="80"
+            Width= "110" Height="90"
             Click ="RecipeButton_Click"
             RenderTransformOrigin="0.5, 0.5" 
-            FontFamily="Verdana">
+            FontFamily="Verdana"
+            VerticalAlignment="Center" 
+            FontSize="14"
+            VerticalContentAlignment="Bottom">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleY="1"/>
@@ -58,9 +70,48 @@
                     <TranslateTransform/>
                 </TransformGroup>
             </Button.RenderTransform>
-            <Label Content="Add a Recipe"/>
-
+            <Label Content="Add Recipe"/>
         </Button>
+
+        <Button x:Name="ShareButton"
+                Grid.Column="0" Grid.Row="1"
+                Background="White"  
+                Width="110" Height="90"
+                FontFamily="Verdana"
+                VerticalAlignment="Center" 
+                FontSize="14"
+                VerticalContentAlignment="Bottom"
+                Content="Share"/>
+
+        <Button x:Name="CalendarButton"
+                Grid.Column="1" Grid.Row="1"
+                Background="White"  
+                Width="110" Height="90"
+                FontFamily="Verdana"
+                VerticalAlignment="Center" 
+                FontSize="14"
+                VerticalContentAlignment="Bottom"
+                Content="Calendar"/>
+
+        <Button x:Name="ShoppingListButton"
+                Grid.Column="2" Grid.Row="1"
+                Background="White"  
+                Width="110" Height="90"
+                FontFamily="Verdana"
+                VerticalAlignment="Center" 
+                FontSize="14"
+                VerticalContentAlignment="Bottom"
+                Content="Shopping List"/>
+
+        <Button x:Name="SettingsButton"
+                Grid.Column="3" Grid.Row="1"
+                Background="White"  
+                Width="110" Height="90"
+                FontFamily="Verdana"
+                VerticalAlignment="Center" 
+                FontSize="14"
+                VerticalContentAlignment="Bottom"
+                Content="Pantry"/>
 
     </Grid>
 
