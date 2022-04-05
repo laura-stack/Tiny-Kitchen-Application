@@ -7,4 +7,21 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="08-Wrench-icon.png" />
+    <None Remove="Add-icon.png" />
+    <None Remove="Collections-Icon.png" />
+    <None Remove="Magnifier-icon.png" />
+    <None Remove="magnifying-glass.png" />
+    <None Remove="pantry-icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Icon_Images\Collections-Icon.png" />
+    <Resource Include="Icon_Images\pantry-icon.png" />
+    <Resource Include="Icon_Images\Settings-Icon.png" />
+    <Resource Include="Icon_Images\Add-icon.png" />
+    <Resource Include="Icon_Images\Find-Recipe-Icon.png" />
+  </ItemGroup>
+
 </Project>
