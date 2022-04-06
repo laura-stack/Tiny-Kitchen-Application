@@ -36,6 +36,7 @@
             Grid.Column="1" Grid.Row="0"
                 Background="White"
                 Width="110" Height="90"
+                Click="FindRecipeButton_Click"
                 FontFamily="Verdana"
                 Content="Find Recipe" 
                 VerticalAlignment="Center" 
@@ -47,17 +48,19 @@
                 Grid.Column="2" Grid.Row="0"
                 Background="White"  
                 Width="110" Height="90"
+                Click="CollectionsButton_Click"
                 FontFamily="Verdana"
                 Content="Collections"
                 VerticalAlignment="Center" 
                 FontSize="14"
                 VerticalContentAlignment="Bottom"/>
-        
+
 
         <Button x:Name="PantryButton"
                 Grid.Column="3" Grid.Row="0"
                 Background="White"  
                 Width="110" Height="90"
+                Click="PantryButton_Click"
                 FontFamily="Verdana"
                 Content="Pantry"
                 VerticalAlignment="Center" 
@@ -119,14 +122,18 @@
                 Grid.Column="3" Grid.Row="1"
                 Background="White"  
                 Width="110" Height="90"
+                Click="SettingsButton_Click"
                 FontFamily="Verdana"
                 VerticalAlignment="Center" 
                 FontSize="14"
                 VerticalContentAlignment="Bottom"
-                Content="Pantry"/>
+                Content="Settings"/>
+        <Image Source="Icon_Images/Find-Recipe-Icon.png" Grid.Column="1" Margin="36,51,28,67"/>
+        <Image Source="Icon_Images/Add-icon.png" Margin="37,49,33,68"/>
+        <Image Source="Icon_Images/Settings-Icon.png" Grid.Column="3" Margin="36,56,32,68" Grid.Row="1"/>
+        <Image Source="Icon_Images/pantry-icon.png" Grid.Column="3" Margin="30,50,26,68"/>
+        <Image Source="Icon_Images/Collections-Icon.png" Margin="31,49,31,67" Grid.Column="2"/>
 
-
-        <Image Source="Icon_Images/Add-icon.png" Width="50" Height="50" Margin="38,62,37,80" av:LayoutOverrides="VerticalAlignment"/>
     </Grid>
 
 
