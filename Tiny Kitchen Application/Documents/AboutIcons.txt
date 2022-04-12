@@ -36,3 +36,18 @@ Artist: PixelKit
 Iconset: Swanky Outlines Icons (16 icons)
 License: CC Attribution 4.0
 Commercial usage: Allowed (Backlink to http://pixelkit.com required)
+
+Shop Icon: 
+Artist: IconsMind
+Iconset: Line Icons (2053 icons)
+License: Linkware (Backlink to http://www.iconsmind.com required)
+Commercial usage: Allowed
+License URL: http://www.iconsmind.com/license-agreement/
+
+Date and Time Calendar Icon:
+Artist: Icons8
+Iconset: iOS 7 Icons (1738 icons)
+License: Linkware (Backlink to http://icons8.com required)
+Commercial usage: Allowed
+License URL: http://icons8.com/license/
+
