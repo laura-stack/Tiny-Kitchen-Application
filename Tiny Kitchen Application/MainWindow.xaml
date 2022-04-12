@@ -114,6 +114,7 @@
                 Background="White"  
                 Width="110" Height="90"
                 FontFamily="Verdana"
+                Click ="ShoppingListButton_Click"
                 VerticalAlignment="Center" 
                 FontSize="14"
                 VerticalContentAlignment="Bottom"
@@ -137,7 +138,7 @@
         <Image Source="Icon_Images/Collections-Icon.png" Margin="31,49,31,67" Grid.Column="2"/>
         <Image Source="Icon_Images/Share-Window-icon.png" Margin="28,53,27,65" Grid.Column="0" Grid.Row="1"/>
         <Image Source="Icon-Images/Time-And-Date-Calendar-icon.png" Margin="24,59,24,70" Grid.Column="1" Grid.Row="1"/>
-
+        <Image Source="Icon-Images/Shop-icon.png" Grid.Column="1" Grid.Row="2"/>
     </Grid>
 
 
