@@ -68,25 +68,25 @@ namespace Tiny_Kitchen_Application
 
 		public void ShareButton_Click(object sender, RoutedEventArgs e)
 		{
-			SettingsWindow settingsWindow = new SettingsWindow();
-			settingsWindow.Show();
-			settingsWindow.Height = 450;
-			settingsWindow.Width = 450;
+			ShareWindow shareWindow = new ShareWindow();
+			shareWindow.Show();
+			shareWindow.Height = 450;
+			shareWindow.Width = 450;
 		}
 
 		public void CalendarButton_Click(object sender, RoutedEventArgs e)
 		{
-			SettingsWindow settingsWindow = new SettingsWindow();
-			settingsWindow.Show();
-			settingsWindow.Height = 450;
-			settingsWindow.Width = 450;
+			CalendarWindow calendarWindow = new CalendarWindow();
+			calendarWindow.Show();
+			calendarWindow.Height = 450;
+			calendarWindow.Width = 450;
 		}
 		public void ShoppingListButton_Click(object sender, RoutedEventArgs e)
 		{
-			SettingsWindow settingsWindow = new SettingsWindow();
-			settingsWindow.Show();
-			settingsWindow.Height = 450;
-			settingsWindow.Width = 450;
+			ShoppingListWindow shoppingListWindow = new ShoppingListWindow();
+			shoppingListWindow.Show();
+			shoppingListWindow.Height = 450;
+			shoppingListWindow.Width = 450;
 		}
 
 

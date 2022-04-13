@@ -14,6 +14,9 @@
     <None Remove="Magnifier-icon.png" />
     <None Remove="magnifying-glass.png" />
     <None Remove="pantry-icon.png" />
+    <None Remove="Share-Window-icon.png" />
+    <None Remove="Shop-icon.png" />
+    <None Remove="Time-And-Date-Calendar-icon.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -22,6 +25,9 @@
     <Resource Include="Icon_Images\Settings-Icon.png" />
     <Resource Include="Icon_Images\Add-icon.png" />
     <Resource Include="Icon_Images\Find-Recipe-Icon.png" />
+    <Resource Include="Share-Window-icon.png" />
+    <Resource Include="Shop-icon.png" />
+    <Resource Include="Time-And-Date-Calendar-icon.png" />
   </ItemGroup>
 
 </Project>
