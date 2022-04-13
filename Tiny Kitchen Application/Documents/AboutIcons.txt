@@ -9,4 +9,30 @@ Iconset: Line Icons (2053 icons)
 License: Linkware (Backlink to http://www.iconsmind.com required)
 Commercial usage: Allowed
 License URL: http://www.iconsmind.com/license-agreement/
+Website: https://iconarchive.com/
 
+Find Recipe Icon:
+Artist: DesignContest 
+Iconset: Outline Icons (40 icons)
+License: CC Attribution 4.0
+Commercial usage: Allowed (Backlink to http://www.designcontest.com required)
+
+Collections Icon:
+Artist: IconsMind
+Iconset: Line Icons (2053 icons)
+License: Linkware (Backlink to http://www.iconsmind.com required)
+Commercial usage: Allowed
+License URL: http://www.iconsmind.com/license-agreement/
+
+Pantry Icon:
+Artist: IconsMind
+Iconset: Line Icons (2053 icons)
+License: Linkware (Backlink to http://www.iconsmind.com required)
+Commercial usage: Allowed
+License URL: http://www.iconsmind.com/license-agreement/
+
+Settings Icon:
+Artist: PixelKit
+Iconset: Swanky Outlines Icons (16 icons)
+License: CC Attribution 4.0
+Commercial usage: Allowed (Backlink to http://pixelkit.com required)

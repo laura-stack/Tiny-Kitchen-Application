@@ -34,5 +34,47 @@ namespace Tiny_Kitchen_Application
 
 		}
 
+		private void FindRecipeButton_Click(object sender, RoutedEventArgs e)
+        {
+			FindRecipesWindow findRecipesWindow = new FindRecipesWindow();
+			findRecipesWindow.Show();
+			findRecipesWindow.Width = 450;
+			findRecipesWindow.Height = 450; 
+        }
+
+		public void CollectionsButton_Click(object sender, RoutedEventArgs e)
+        {
+			CollectionsWindow collectionWindow = new CollectionsWindow();
+			collectionWindow.Show();
+			collectionWindow.Width = 450;
+			collectionWindow.Height = 450; 
+        }
+
+		public void PantryButton_Click(object sender, RoutedEventArgs e)
+        {
+			PantryWindow pantryWindow = new PantryWindow();
+			pantryWindow.Show();
+			pantryWindow.Width = 450;
+			pantryWindow.Height = 450; 
+        }
+		
+		public void SettingsButton_Click(object sender, RoutedEventArgs e)
+        {
+			SettingsWindow settingsWindow = new SettingsWindow();
+			settingsWindow.Show();
+			settingsWindow.Height = 450;
+			settingsWindow.Width = 450; 
+        }
+
+		public void ShareButton_Click(object sender, RoutedEventArgs e)
+		{
+			SettingsWindow settingsWindow = new SettingsWindow();
+			settingsWindow.Show();
+			settingsWindow.Height = 450;
+			settingsWindow.Width = 450;
+		}
+
+
+
 	}
 }

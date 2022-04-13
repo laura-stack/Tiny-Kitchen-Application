@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
 C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\App.xaml
-2261530808
+6-408849504
 
-61000966912
+18-107319008
 192-1533232326
-MainWindow.xaml;RecipeWindow.xaml;
+CollectionsWindow.xaml;FindRecipesWindow.xaml;MainWindow.xaml;PantryWindow.xaml;RecipeWindow.xaml;SettingsWindow.xaml;
 
-True
+False
 
