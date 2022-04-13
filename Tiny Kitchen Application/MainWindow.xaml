@@ -16,14 +16,14 @@
             </Style>
         </Grid.Resources>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition />
+            <ColumnDefinition/>
             <ColumnDefinition />
             <ColumnDefinition />
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition />
-            <RowDefinition />
+            <RowDefinition Height="210"/>
+            <RowDefinition Height="100"/>
         </Grid.RowDefinitions>
 
         <Label x:Name="Label1" 
@@ -142,13 +142,22 @@
                 Content="Settings"/>
 
         <Image Source="Icon_Images/Find-Recipe-Icon.png" Grid.Column="1" Margin="36,51,28,67"/>
-        <Image Source="Icon_Images/Add-icon.png" Margin="37,49,33,68"/>
-        <Image Source="Icon_Images/Settings-Icon.png" Grid.Column="3" Margin="36,56,32,68" Grid.Row="1"/>
+        <Image Source="Icon_Images/Add-icon.png" Margin="35,50,35,66"/>
+        <Image Source="Icon_Images/Settings-Icon.png" Grid.Column="3" Margin="30,15,26,25" Grid.Row="1" RenderTransformOrigin="0.469,0.534"/>
         <Image Source="Icon_Images/pantry-icon.png" Grid.Column="3" Margin="30,50,26,68"/>
         <Image Source="Icon_Images/Collections-Icon.png" Margin="31,49,31,67" Grid.Column="2"/>
-        <Image Source="/Time-And-Date-Calendar-icon.png" StretchDirection="Both" Grid.Column="1" Margin="26,59,27,75" Grid.Row="1"/>
-        <Image Source="/Shop-icon.png" Margin="32,51,33,63" Grid.Column="2" Grid.Row="1"/>
-        <Image Source="/Share-Window-icon.png" Margin="25,48,23,60" Grid.Row="1"/>
+        <Image Source="/Time-And-Date-Calendar-icon.png" StretchDirection="Both" Grid.Column="1" Margin="6,13,6,27" RenderTransformOrigin="0.5,0.5" Grid.Row="1" av:LayoutOverrides="VerticalAlignment">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image Source="/Shop-icon.png" Margin="22,15,23,29" Grid.Column="2" Grid.Row="1" av:LayoutOverrides="VerticalAlignment" RenderTransformOrigin="0.466,0.175"/>
+        <Image Source="/Share-Window-icon.png" Margin="30,12,27,21" Grid.Row="1"/>
     </Grid>
 
 
