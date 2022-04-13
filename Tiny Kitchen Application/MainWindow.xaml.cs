@@ -74,6 +74,22 @@ namespace Tiny_Kitchen_Application
 			settingsWindow.Width = 450;
 		}
 
+		public void CalendarButton_Click(object sender, RoutedEventArgs e)
+		{
+			SettingsWindow settingsWindow = new SettingsWindow();
+			settingsWindow.Show();
+			settingsWindow.Height = 450;
+			settingsWindow.Width = 450;
+		}
+		public void ShoppingListButton_Click(object sender, RoutedEventArgs e)
+		{
+			SettingsWindow settingsWindow = new SettingsWindow();
+			settingsWindow.Show();
+			settingsWindow.Height = 450;
+			settingsWindow.Width = 450;
+		}
+
+
 
 
 	}
