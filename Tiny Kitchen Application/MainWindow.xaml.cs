@@ -32,6 +32,8 @@ namespace Tiny_Kitchen_Application
 			recipeWindow.Width = 450;
 			recipeWindow.Height = 450;
 
+			recipeWindow.Content = "hi";
+
 		}
 
 		private void FindRecipeButton_Click(object sender, RoutedEventArgs e)

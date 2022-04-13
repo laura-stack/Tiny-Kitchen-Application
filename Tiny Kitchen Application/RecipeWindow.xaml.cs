@@ -22,6 +22,18 @@ namespace Tiny_Kitchen_Application
             InitializeComponent();
         }
 
+        public void createButton() { 
+            Button btn = new Button();
+
+            btn.Height = 80;
+
+            btn.Width = 150;
+
+            btn.Content = "Click ME";
+            btn.Background = new SolidColorBrush(Colors.Orange);
+            btn.Foreground = new SolidColorBrush(Colors.Black);
+        }
+
        
     }
 }
