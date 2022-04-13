@@ -2,11 +2,9 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
-    <ApplicationDefinition Update="App.xaml">
-      <SubType>Designer</SubType>
-    </ApplicationDefinition>
-  </ItemGroup>
-  <ItemGroup>
+    <Compile Update="CalendarWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="CollectionsWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -22,8 +20,20 @@
     <Compile Update="SettingsWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="ShareWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ShoppingListWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="App.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CalendarWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="CollectionsWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -40,6 +50,12 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="SettingsWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ShareWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ShoppingListWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
