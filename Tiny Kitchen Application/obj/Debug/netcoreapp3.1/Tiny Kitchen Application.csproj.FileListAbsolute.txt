@@ -79,3 +79,5 @@ C:\Users\autum\source\repos\Tiny-Kitchen-Application\Tiny Kitchen Application\bi
 C:\Users\autum\source\repos\Tiny-Kitchen-Application\Tiny Kitchen Application\bin\Debug\netcoreapp3.1\GalaSoft.MvvmLight.dll
 C:\Users\autum\source\repos\Tiny-Kitchen-Application\Tiny Kitchen Application\bin\Debug\netcoreapp3.1\System.Windows.Interactivity.dll
 C:\Users\autum\source\repos\Tiny-Kitchen-Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.1\Tiny Kitchen Application.csproj.CopyComplete
+C:\Users\autum\source\repos\Tiny-Kitchen-Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.1\SettingsWindowxaml.g.cs
+C:\Users\autum\source\repos\Tiny-Kitchen-Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.1\SettingsWindowxaml.baml

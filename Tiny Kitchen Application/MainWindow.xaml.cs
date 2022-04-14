@@ -61,8 +61,6 @@ namespace Tiny_Kitchen_Application
         {
 			SettingsWindow settingsWindow = new SettingsWindow();
 			settingsWindow.Show();
-			settingsWindow.Height = 450;
-			settingsWindow.Width = 450; 
         }
 
 		public void ShareButton_Click(object sender, RoutedEventArgs e)

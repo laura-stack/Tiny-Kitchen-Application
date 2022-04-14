@@ -7,12 +7,9 @@
   Title="Tiny Kitchen Application" Height="400" Width="500"
     Background="#3A6A59">
 
-    
-    
-    <Grid>
-        
-        
 
+
+    <Grid>
 
         <Grid.Resources>
             <Style TargetType="Button">
