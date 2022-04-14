@@ -6,10 +6,12 @@
         xmlns:local="clr-namespace:Tiny_Kitchen_Application"
         mc:Ignorable="d"
         Title="AddRecipeWindow" Height="450" Width="800"
-        Background="AliceBlue">
+        Background="#3A6A59">
     <Grid>
-        
-        
-        
+        <TextBlock Margin="177,85,177,85" TextWrapping="Wrap" d:LayoutOverrides="HorizontalAlignment, VerticalAlignment"><Run Text="Name:"/><LineBreak/><Run/></TextBlock>
+        <Label Content="Type recipe in the textbox below, then click the save button. " FontSize="28" Margin="38,10,-18,349" d:LayoutOverrides="HorizontalAlignment"/>
+
+
+
     </Grid>
 </Window>
