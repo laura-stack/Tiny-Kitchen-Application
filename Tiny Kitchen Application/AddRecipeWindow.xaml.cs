@@ -13,14 +13,13 @@ using System.Windows.Shapes;
 namespace Tiny_Kitchen_Application
 {
     /// <summary>
-    /// Interaction logic for RecipeWindow.xaml
+    /// Interaction logic for AddRecipeWindow.xaml
     /// </summary>
-    public partial class RecipeWindow : Window
+    public partial class AddRecipeWindow : Window
     {
-        public RecipeWindow()
+        public AddRecipeWindow()
         {
             InitializeComponent();
         }
-       
     }
 }

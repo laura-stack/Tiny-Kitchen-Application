@@ -2,6 +2,9 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
+    <Compile Update="AddRecipeWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="CalendarWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -28,6 +31,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="AddRecipeWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="App.xaml">
       <SubType>Designer</SubType>
     </Page>

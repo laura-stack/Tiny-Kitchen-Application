@@ -27,12 +27,14 @@ namespace Tiny_Kitchen_Application
 
 		private void RecipeButton_Click(object sender, RoutedEventArgs e)
 		{
-			RecipeWindow recipeWindow = new RecipeWindow();
-			recipeWindow.Show();
-			recipeWindow.Width = 450;
-			recipeWindow.Height = 450;
+			AddRecipeWindow addRecipeWindow = new AddRecipeWindow();
+			addRecipeWindow.Show();
+			addRecipeWindow.Width = 450;
+			addRecipeWindow.Height = 450;
 
-			recipeWindow.Content = "hi";
+
+			addRecipeWindow.Content = "hi, test 1";
+
 
 		}
 
