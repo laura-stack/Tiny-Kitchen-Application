@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Tiny_Kitchen_Application"
         mc:Ignorable="d"
-        Title="CollectionsWindow" Height="450" Width="800">
+        Title="CollectionsWindow" Height="450" Width="450"
+        Background="#3A6A59">
     <Grid>
-        
+        <Label Content="Collections" FontFamily="Verdana" FontSize="18" FontWeight="Medium" HorizontalAlignment="Center" Margin="0,14,0,0" VerticalAlignment="Top" Height="44" Width="134" Foreground="#D6C18A"/>
+        <Button Content="Create New Collection" FontFamily="Verdana" Margin="40,89,0,0" Background="#A7A88A" Foreground="#3A6A59" Click="Button_Click" Height="59" VerticalAlignment="Top" HorizontalAlignment="Left" Width="164"/>
+
+
     </Grid>
 </Window>
