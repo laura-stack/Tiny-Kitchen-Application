@@ -20,6 +20,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="MvvmLightLibs" Version="5.4.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Resource Include="Icon_Images\Collections-Icon.png" />
     <Resource Include="Icon_Images\pantry-icon.png" />
     <Resource Include="Icon_Images\Settings-Icon.png" />
