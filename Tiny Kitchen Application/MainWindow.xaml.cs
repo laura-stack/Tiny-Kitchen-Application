@@ -25,12 +25,11 @@ namespace Tiny_Kitchen_Application
 			InitializeComponent();
 		}
 
-		private void RecipeButton_Click(object sender, RoutedEventArgs e)
+		private void AddRecipeButton_Click(object sender, RoutedEventArgs e)
 		{
-			RecipeWindow recipeWindow = new RecipeWindow();
-			recipeWindow.Show();
-			recipeWindow.Width = 450;
-			recipeWindow.Height = 450;
+			AddRecipeWindow addRecipeWindow = new AddRecipeWindow();
+
+			addRecipeWindow.Show();
 
 		}
 
@@ -62,8 +61,6 @@ namespace Tiny_Kitchen_Application
         {
 			SettingsWindow settingsWindow = new SettingsWindow();
 			settingsWindow.Show();
-			settingsWindow.Height = 450;
-			settingsWindow.Width = 450; 
         }
 
 		public void ShareButton_Click(object sender, RoutedEventArgs e)

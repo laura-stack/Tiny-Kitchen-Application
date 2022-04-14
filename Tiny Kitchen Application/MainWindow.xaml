@@ -5,7 +5,8 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
     mc:Ignorable="av" x:Class="Tiny_Kitchen_Application.MainWindow"
   Title="Tiny Kitchen Application" Height="400" Width="500"
-  Background="#3A6A59">
+    Background="#3A6A59">
+
 
 
     <Grid>
@@ -80,7 +81,7 @@
             Grid.Column="0"
             Background="White" 
             Width= "110" Height="90"
-            Click ="RecipeButton_Click"
+            Click ="AddRecipeButton_Click"
             RenderTransformOrigin="0.5, 0.5" 
             FontFamily="Verdana"
             VerticalAlignment="Center" 

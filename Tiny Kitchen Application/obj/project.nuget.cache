@@ -1,8 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "YzgTmDIOSsvosWMGOR8rjal4Zffy90ZpTKbDlmrniIwipTIjJCMowhq9KStEmYGGAwdEM43vaD3kMUu/YXeCjg==",
+  "dgSpecHash": "jaiHCPuDN5zV14E1dkFy6J48IR/l+IRPJ9V9o1f7ueUtRwEi0auqsZ8xHm3sDg4xobBlsAMsCgJCxkXXef/t1g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\autum\\Source\\Repos\\Tiny-Kitchen-Application\\Tiny Kitchen Application\\Tiny Kitchen Application.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "projectFilePath": "C:\\Users\\autum\\source\\repos\\Tiny-Kitchen-Application\\Tiny Kitchen Application\\Tiny Kitchen Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\autum\\.nuget\\packages\\mvvmlightlibs\\5.4.1.1\\mvvmlightlibs.5.4.1.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'MvvmLightLibs 5.4.1.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "MvvmLightLibs",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }
