@@ -8,8 +8,12 @@
         Title="CollectionsWindow" Height="450" Width="450"
         Background="#3A6A59">
     <Grid>
-        <Label Content="Collections" FontFamily="Verdana" FontSize="18" FontWeight="Medium" HorizontalAlignment="Center" Margin="0,14,0,0" VerticalAlignment="Top" Height="44" Width="134" Foreground="#D6C18A"/>
-        <Button Content="Create New Collection" FontFamily="Verdana" Margin="40,89,0,0" Background="#A7A88A" Foreground="#3A6A59" Click="Button_Click" Height="59" VerticalAlignment="Top" HorizontalAlignment="Left" Width="164"/>
+        <Label Content="Collections" FontFamily="Verdana" FontSize="18" FontWeight="Medium" HorizontalAlignment="Left" Margin="160,14,0,0" VerticalAlignment="Top" Height="44" Width="134" Foreground="#D6C18A"/>
+        <Button FontFamily="Verdana" Margin="364,24,0,0" Background="#A7A88A" Foreground="#3A6A59" Click="CreateCollectionButton_Click" Height="71" VerticalAlignment="Top" HorizontalAlignment="Left" Width="70">
+            <Image Height="100" Width="100"/>
+        </Button>
+        <Image HorizontalAlignment="Left" Height="49" Margin="384,33,0,0" VerticalAlignment="Top" Width="32" Source="/Add-icon.png"/>
+        <Label Content="Create" FontFamily ="Verdana" HorizontalAlignment="Left" Margin="374,68,0,0" VerticalAlignment="Top"/>
 
 
     </Grid>
