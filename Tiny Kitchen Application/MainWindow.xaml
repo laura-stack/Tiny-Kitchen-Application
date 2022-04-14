@@ -84,7 +84,7 @@
             Grid.Column="0"
             Background="White" 
             Width= "110" Height="90"
-            Click ="RecipeButton_Click"
+            Click ="AddRecipeButton_Click"
             RenderTransformOrigin="0.5, 0.5" 
             FontFamily="Verdana"
             VerticalAlignment="Center" 
