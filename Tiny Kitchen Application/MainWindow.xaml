@@ -1,4 +1,5 @@
-﻿<Window
+﻿
+    <Window
   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
   xmlns:av="http://schemas.microsoft.com/expression/blend/2008" 

@@ -5,8 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Tiny_Kitchen_Application"
         mc:Ignorable="d"
-        Title="CollectionsWindow" Height="450" Width="800">
+        Title="CollectionsWindow" Height="450" Width="450"
+        Background="#3A6A59">
     <Grid>
-        
+        <Label Content="Collections" FontFamily="Verdana" FontSize="18" FontWeight="Medium" HorizontalAlignment="Left" Margin="160,14,0,0" VerticalAlignment="Top" Height="44" Width="134" Foreground="#D6C18A"/>
+        <Button FontFamily="Verdana" Margin="364,24,0,0" Background="#A7A88A" Foreground="#3A6A59" Click="CreateCollectionButton_Click" Height="71" VerticalAlignment="Top" HorizontalAlignment="Left" Width="70">
+            <Image Height="100" Width="100"/>
+        </Button>
+        <Image HorizontalAlignment="Left" Height="49" Margin="384,33,0,0" VerticalAlignment="Top" Width="32" Source="/Add-icon.png"/>
+        <Label Content="Create" FontFamily ="Verdana" HorizontalAlignment="Left" Margin="374,68,0,0" VerticalAlignment="Top"/>
+
+
     </Grid>
 </Window>
