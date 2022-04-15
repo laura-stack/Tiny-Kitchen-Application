@@ -19,7 +19,8 @@ namespace Tiny_Kitchen_Application
     /// </summary>
     public partial class SettingsWindow : Window
     {
-        public string email { get; set; }
+
+        public static string emailAddress { get; set; }
 
         public SettingsWindow()
         {
@@ -27,13 +28,11 @@ namespace Tiny_Kitchen_Application
             DataContext = this;
         }
 
-        private void SaveButton_Click(object sender, RoutedEventArgs e)
-        {
-            MessageBox.Show(email.ToString());
-        }
-
-
-
-
+        //private void SaveButton_Click(object sender, RoutedEventArgs e)
+        //{
+        //emailAddress = emailAddress.Text;
+        //MessageBox.Show(emailAddress);
+        //}
     }
+
 }
