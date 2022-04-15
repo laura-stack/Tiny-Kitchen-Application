@@ -30,18 +30,14 @@ namespace Tiny_Kitchen_Application
             DataContext = this;
         }
 
-        // Need to come back to this in order to bind textbox email to variable
-
-        //private void SaveButton_Click(object sender, RoutedEventArgs e)
-        //{
-        //emailAddress = emailAddress.Text;
-        //MessageBox.Show(emailAddress);
-        //}
-
         private void Test_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show(string.Format("Calorie count off."));
+            emailAddress = emailTyped.Text;
+            MessageBox.Show(string.Format("Settings saved successfully.\n" + 
+                "Your current email is: " + emailAddress + "\n"+
+                "Calories turned off? " + calorieToggle));
         }
+
     }
 
 }
