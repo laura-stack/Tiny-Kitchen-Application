@@ -21,5 +21,10 @@ namespace Tiny_Kitchen_Application
         {
             InitializeComponent();
         }
+
+        private void email_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }

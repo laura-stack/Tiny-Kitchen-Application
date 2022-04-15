@@ -8,6 +8,11 @@
         Title="SettingsWindow" Height="450" Width="450"
         Background="#3A6A59">
     <Grid>
-        
+        <Label Content="Settings" FontFamily="Verdana" FontSize="30" FontWeight="Medium" Margin="154,10,154,378" Foreground="#D6C18A" d:LayoutOverrides="HorizontalAlignment"/>
+        <TextBox Margin="0,92,0,0" TextWrapping="Wrap" x:Name="email" Text="{Binding Path = email}" Height="22" VerticalAlignment="Top" HorizontalAlignment="Center" Width="274"/>
+        <Button Content="Save" Click="SaveButton_Click" Margin="0,0,10,320" HorizontalAlignment="Right" Width="74" Height="22" VerticalAlignment="Bottom"/>
+
+
+
     </Grid>
 </Window>
