@@ -37,6 +37,11 @@ namespace Tiny_Kitchen_Application
         //emailAddress = emailAddress.Text;
         //MessageBox.Show(emailAddress);
         //}
+
+        private void Test_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show(string.Format("Calorie count off."));
+        }
     }
 
 }
