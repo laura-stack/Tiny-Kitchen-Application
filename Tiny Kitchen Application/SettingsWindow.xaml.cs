@@ -19,10 +19,21 @@ namespace Tiny_Kitchen_Application
     /// </summary>
     public partial class SettingsWindow : Window
     {
+        public string email { get; set; }
+
         public SettingsWindow()
         {
             InitializeComponent();
+            DataContext = this;
         }
+
+        private void SaveButton_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show(email.ToString());
+        }
+
+
+
 
     }
 }

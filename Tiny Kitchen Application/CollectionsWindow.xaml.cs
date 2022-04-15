@@ -19,7 +19,7 @@ namespace Tiny_Kitchen_Application
 
     public class Collection
     {
-        String name; 
+        string name; 
         //ArrayList<Recipes> recipes;
 
         public Collection()

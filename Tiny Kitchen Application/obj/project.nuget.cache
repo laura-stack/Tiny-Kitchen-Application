@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "KUDMNid+j8os6b3C9QFkeyBHm1tElzJoYVrLRxamSKTNZWQNR5WgT1EP9abcofk9bfPUXmQwgQFrLhDrWblYaA==",
+  "dgSpecHash": "yI0HKgUMSUgvQvMsAkl0cNVzQmwyaaHtygq0IOxs98ps39GqN8ixqzEJAqmdgnV6Rhpt8q/j4tj6FsZoQdsuOw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\chach\\source\\repos\\Tiny Kitchen Application\\Tiny Kitchen Application\\Tiny Kitchen Application.csproj",
+  "projectFilePath": "C:\\Users\\autum\\Source\\Repos\\Tiny-Kitchen-Application\\Tiny Kitchen Application\\Tiny Kitchen Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\chach\\.nuget\\packages\\mvvmlightlibs\\5.4.1.1\\mvvmlightlibs.5.4.1.1.nupkg.sha512"
+    "C:\\Users\\autum\\.nuget\\packages\\mvvmlightlibs\\5.4.1.1\\mvvmlightlibs.5.4.1.1.nupkg.sha512"
   ],
   "logs": [
     {
