@@ -22,11 +22,15 @@ namespace Tiny_Kitchen_Application
 
         public static string emailAddress { get; set; }
 
+        public static bool calorieToggle { get; set; }
+
         public SettingsWindow()
         {
             InitializeComponent();
             DataContext = this;
         }
+
+        // Need to come back to this in order to bind textbox email to variable
 
         //private void SaveButton_Click(object sender, RoutedEventArgs e)
         //{
