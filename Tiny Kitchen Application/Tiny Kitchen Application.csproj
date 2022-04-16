@@ -24,6 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Add-icon.png" />
     <Resource Include="Icon_Images\Collections-Icon.png" />
     <Resource Include="Icon_Images\pantry-icon.png" />
     <Resource Include="Icon_Images\Settings-Icon.png" />

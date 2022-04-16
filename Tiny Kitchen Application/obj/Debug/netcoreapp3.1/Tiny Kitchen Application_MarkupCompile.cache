@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\autum\source\repos\Tiny-Kitchen-Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.1\
+C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.1\
 Tiny_Kitchen_Application
 none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
-C:\Users\autum\source\repos\Tiny-Kitchen-Application\Tiny Kitchen Application\App.xaml
-11-1420587861
+C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\App.xaml
+10-1356387031
 
-131781992422
-196-1984305083
-AddRecipeWindow.xaml;CalendarWindow.xaml;CollectionsWindow.xaml;FindRecipesWindow.xaml;MainWindow.xaml;PantryWindow.xaml;RecipeWindow.xaml;SettingsWindow.xaml;SettingsWindowxaml.xaml;ShareWindow.xaml;ShoppingListWindow.xaml;
+12-1443619598
+19671880525
+AddRecipeWindow.xaml;CalendarWindow.xaml;CollectionsWindow.xaml;FindRecipesWindow.xaml;MainWindow.xaml;PantryWindow.xaml;RecipeWindow.xaml;SettingsWindow.xaml;ShareWindow.xaml;ShoppingListWindow.xaml;
 
 False
 

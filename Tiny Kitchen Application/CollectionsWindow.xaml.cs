@@ -15,11 +15,29 @@ namespace Tiny_Kitchen_Application
     /// <summary>
     /// Interaction logic for CollectionsWindow.xaml
     /// </summary>
+    /// 
+
+    public class Collection
+    {
+        string name; 
+        //ArrayList<Recipes> recipes;
+
+        public Collection()
+        {
+
+        }
+    }
     public partial class CollectionsWindow : Window
     {
+       
         public CollectionsWindow()
         {
             InitializeComponent();
+        }
+
+        public void CreateCollectionButton_Click(object sender, RoutedEventArgs e)
+        {
+            Collection collection = new Collection(); 
         }
     }
 }

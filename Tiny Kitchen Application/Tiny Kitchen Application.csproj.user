@@ -23,9 +23,6 @@
     <Compile Update="SettingsWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="SettingsWindowxaml.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Update="ShareWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -59,9 +56,6 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="SettingsWindow.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="SettingsWindowxaml.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ShareWindow.xaml">

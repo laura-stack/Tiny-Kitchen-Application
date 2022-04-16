@@ -19,10 +19,25 @@ namespace Tiny_Kitchen_Application
     /// </summary>
     public partial class SettingsWindow : Window
     {
+
+        public static string emailAddress { get; set; }
+
+        public static bool calorieToggle { get; set; }
+
         public SettingsWindow()
         {
             InitializeComponent();
+            DataContext = this;
+        }
+
+        private void Test_Click(object sender, RoutedEventArgs e)
+        {
+            emailAddress = emailTyped.Text;
+            MessageBox.Show(string.Format("Settings saved successfully.\n" + 
+                "Your current email is: " + emailAddress + "\n"+
+                "Calories turned off? " + calorieToggle));
         }
 
     }
+
 }
