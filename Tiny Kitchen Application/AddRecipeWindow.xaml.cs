@@ -33,12 +33,14 @@ namespace Tiny_Kitchen_Application
             SaveFileDialog saveFileDialog = new SaveFileDialog();
             saveFileDialog.Filter = "Text file (*.txt)|*.txt|C# file (*.cs)|*.cs";
             if (saveFileDialog.ShowDialog() == true)
-            File.WriteAllText(saveFileDialog.FileName, name.Text + description.Text);
+            File.WriteAllText(saveFileDialog.FileName, 
+                "Name: " + recipeName.Text + '\n' + 
+                "Ingredients: " + ingredients.Text + '\n' +
+                "Cook Time: " + cookTime.Text + '\n' +
+                "Calories: " + calories.Text + '\n' +
+                "Description: " + description.Text + '\n'
+                );
             }
-        /*using (StreamWriter writetext = new StreamWriter("file", append: true))
-            {
-                writetext.WriteLine(emailAddress);
-            }*/
     }
 
 }
