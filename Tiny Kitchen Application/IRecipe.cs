@@ -8,12 +8,13 @@ namespace Tiny_Kitchen_Application
 {
     internal interface IRecipe
     {
-        string Name { get; set; }
+        string RecipeName { get; set; }
         ArrayList Ingredients { get; set; }
-        double cookTime { get; set; }
-        double Calories { get; set; }
+        double CookTime { get; set; }
+        string Calories { get; set; }
         string Description { get; set; }
-        string fileName { get; set; }
+        //string FileName { get; set; }
+        
 
         public void deleteRecipe(string fileName, LinkedList<string> Recipes)
         {
@@ -25,12 +26,6 @@ namespace Tiny_Kitchen_Application
             File.Delete(fileName);
             Recipes.RemoveLast();
         }
-
-        public void editRecipe(string fileName, LinkedList<string> Recipes)
-        {
-
-        }
-
 
     }
 }
