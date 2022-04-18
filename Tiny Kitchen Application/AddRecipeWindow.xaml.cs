@@ -28,8 +28,11 @@ namespace Tiny_Kitchen_Application
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            OpenFileDialog openFile;
-            FolderBrowserDialog folderBrowser;
+            SaveFileDialog saveFileDialog = new SaveFileDialog();
+            saveFileDialog.Filter = "Text file (*.txt)|*.txt|C# file (*.cs)|*.cs";
+            if (saveFileDialog.ShowDialog() == true)
+                File.WriteAllText(saveFileDialog.FileName, RecipeTyped.Text);
+            }
         }
 
 }

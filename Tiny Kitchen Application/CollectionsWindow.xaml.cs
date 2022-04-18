@@ -40,23 +40,6 @@ namespace Tiny_Kitchen_Application
 
         public void CreateCollectionButton_Click(object sender, RoutedEventArgs e)
         {
-            FolderBrowserDialog folderBrowser = new System.Windows.Forms.FolderBrowserDialog();
-            System.Windows.Forms.OpenFileDialog openFile = new System.Windows.Forms.OpenFileDialog();
-            String folderName;
-            bool fileOpened = false;
-
-            DialogResult result = folderBrowser.ShowDialog(); 
-            if(result == System.Windows.Forms.DialogResult.OK)
-            {
-                folderName = folderBrowser.SelectedPath;
-                if (!fileOpened)
-                {
-                    openFile.InitialDirectory = folderName;
-                    openFile.FileName = null;
-                    //openFile.PerformClick();
-                }
-            }
-
 
         }
     }
