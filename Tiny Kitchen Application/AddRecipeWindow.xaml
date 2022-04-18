@@ -10,7 +10,7 @@
     <Grid>
 
         <Label Content="Type recipe below,&#xD;&#xA;then click the save button." FontFamily="Verdana" FontSize="18" FontWeight="Medium" Margin="97,10,62,346" d:LayoutOverrides="HorizontalAlignment" Foreground="#D6C18A"/>
-        <TextBox Margin="97,88,90,103" TextWrapping="Wrap" Text="Recipe Name:&#xA;&#xA;Recipe Cook Time: &#xA;&#xA;Recipe Ingredients:&#xA;&#xA;Recipe Description:&#xD;&#xA;&#xD;&#xA;Recipe Calories: &#xA;&#xA;" d:LayoutOverrides="HorizontalAlignment, VerticalAlignment" Name="RecipeTyped" FontFamily="Verdana" TextChanged="RecipeTyped_TextChanged"/>
+        <TextBox Margin="97,88,90,103" TextWrapping="Wrap" Text="Recipe Name:&#xA;&#xA;Recipe Cook Time: &#xA;&#xA;Recipe Ingredients:&#xA;&#xA;Recipe Description:&#xD;&#xA;&#xD;&#xA;Recipe Calories: &#xA;&#xA;" d:LayoutOverrides="HorizontalAlignment, VerticalAlignment" Name="RecipeTyped" FontFamily="Verdana"/>
         <Button Content="Save" FontFamily="Verdana" Margin="0,355,0,0" Background="#A7A88A" Foreground="#3A6A59" Click="Button_Click" Height="45" VerticalAlignment="Top" HorizontalAlignment="Center" Width="90"/>
 
     </Grid>

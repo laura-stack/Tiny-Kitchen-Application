@@ -4,6 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace Tiny_Kitchen_Application
 {
@@ -43,17 +44,25 @@ namespace Tiny_Kitchen_Application
             }
             set
             {
-                string NewLine = "";
-                using (StreamReader steamReader = new StreamReader(_fileName))
+                Regex reg = new Regex(@"\s/Desktop/TinyKitchen/([a-zA-Z0-9\-]+?)\.txt");
+                string newLine = "";
+                using (StreamReader s = new StreamReader(_fileName))
                 {
-                    if (!NewLine.Contains("Recipe Cook Time:"))
+                    if (!newLine.Contains("Recipe Cook Time:"))
                     {
-                        _recipeName = steamReader.ReadToEnd();
+                        _recipeName = s.ReadToEnd();
                     }
 
+                    while ((newLine = s.ReadLine()) != null)
+                    {
+                        Match m = reg.Match(newLine);
+                        if (m.Success)
+                        {
+                            _recipeName = m.Groups[1].Value;
+                            Console.WriteLine(newLine);
+                        }
+                    }
                 }
-
-                _recipeName = value;
             }
         }
 
