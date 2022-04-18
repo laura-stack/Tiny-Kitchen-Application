@@ -12,10 +12,10 @@ namespace Tiny_Kitchen_Application
         public static string _recipeName { get; set; }
         //Recipe._recipeName
 
-        ArrayList _ingredients { get; set; }
-        double _cookTime { get; set; }
-        string _calories { get; set; }
-        string _description { get; set; }
+        public static ArrayList _ingredients { get; set; }
+        public static string _cookTime { get; set; }
+        public static string _calories { get; set; }
+        public static string _description { get; set; }
         public static string _fileName { get; set; }
 
         /*public string FileName
@@ -80,7 +80,7 @@ namespace Tiny_Kitchen_Application
             }
         }
 
-        public double CookTime
+        public string CookTime
         {
             get
             {
@@ -94,7 +94,7 @@ namespace Tiny_Kitchen_Application
                 {
                     if (!NewLine.Contains("Recipe Ingredients:"))
                     {
-                        _recipeName = steamReader.ReadToEnd();
+                        _cookTime = steamReader.ReadToEnd();
                     }
 
                 }

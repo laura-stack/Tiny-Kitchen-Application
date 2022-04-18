@@ -10,7 +10,7 @@ namespace Tiny_Kitchen_Application
     {
         string RecipeName { get; set; }
         ArrayList Ingredients { get; set; }
-        double CookTime { get; set; }
+        string CookTime { get; set; }
         string Calories { get; set; }
         string Description { get; set; }
         //string FileName { get; set; }
