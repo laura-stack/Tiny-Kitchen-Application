@@ -14,13 +14,19 @@
         <Label Content="Recipe Name:" Margin="0,93,325,0" HorizontalAlignment="Right" Width="87" Height="26" VerticalAlignment="Top"/>
         <TextBox Name= "name" Margin="0,96,10,0" TextWrapping="Wrap" HorizontalAlignment="Right" Width="310" Height="23" VerticalAlignment="Top" TextChanged="name_TextChanged"/>
 
-        <Label Content="Recipe Description:" Margin="0,263,325,0" HorizontalAlignment="Right" Width="115" Height="33" VerticalAlignment="Top"/>
-        <TextBox Name ="description" Margin="0,263,10,0" TextWrapping="Wrap" HorizontalAlignment="Right" Width="308" Height="66" VerticalAlignment="Top"/>
-
         <TextBox Margin="132,138,10,254" TextWrapping="Wrap" TextChanged="TextBox_TextChanged" d:LayoutOverrides="HorizontalAlignment"/>
         <Label Content="Recipe Ingredients:" Margin="0,141,325,0" HorizontalAlignment="Right" Width="115" Height="39" VerticalAlignment="Top"/>
 
+        <Label Content="Recipe Description:" Margin="0,280,325,0" HorizontalAlignment="Right" Width="115" Height="33" VerticalAlignment="Top"/>
+        <TextBox Name ="description" Margin="0,280,10,0" TextWrapping="Wrap" HorizontalAlignment="Right" Width="308" Height="66" VerticalAlignment="Top"/>
+
+        <TextBox Margin="131,196,10,217" TextWrapping="Wrap" TextChanged="TextBox_TextChanged" d:LayoutOverrides="HorizontalAlignment"/>
+        <Label Content="Recipe Cook Time:" Margin="0,191,319,0" HorizontalAlignment="Right" Width="115" VerticalAlignment="Top" d:LayoutOverrides="VerticalAlignment"/>
+
+        <TextBox Margin="130,238,11,175" TextWrapping="Wrap" TextChanged="TextBox_TextChanged" d:LayoutOverrides="HorizontalAlignment" Height="21"/>
+        <Label Content="Recipe Calories:" Margin="0,236,311,0" HorizontalAlignment="Right" Width="115" VerticalAlignment="Top"/>
+
         <Button Content="Save" FontFamily="Verdana" Margin="0,355,0,0" Background="#A7A88A" Foreground="#3A6A59" Click="Button_Click" Height="45" VerticalAlignment="Top" HorizontalAlignment="Center" Width="90"/>
-        
+
     </Grid>
 </Window>
