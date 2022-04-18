@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\autum\\Source\\Repos\\Tiny-Kitchen-Application\\Tiny Kitchen Application\\Tiny Kitchen Application.csproj": {}
+    "C:\\Users\\chach\\source\\repos\\Tiny Kitchen Application\\Tiny Kitchen Application\\Tiny Kitchen Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\autum\\Source\\Repos\\Tiny-Kitchen-Application\\Tiny Kitchen Application\\Tiny Kitchen Application.csproj": {
+    "C:\\Users\\chach\\source\\repos\\Tiny Kitchen Application\\Tiny Kitchen Application\\Tiny Kitchen Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\autum\\Source\\Repos\\Tiny-Kitchen-Application\\Tiny Kitchen Application\\Tiny Kitchen Application.csproj",
+        "projectUniqueName": "C:\\Users\\chach\\source\\repos\\Tiny Kitchen Application\\Tiny Kitchen Application\\Tiny Kitchen Application.csproj",
         "projectName": "Tiny Kitchen Application",
-        "projectPath": "C:\\Users\\autum\\Source\\Repos\\Tiny-Kitchen-Application\\Tiny Kitchen Application\\Tiny Kitchen Application.csproj",
-        "packagesPath": "C:\\Users\\autum\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\autum\\Source\\Repos\\Tiny-Kitchen-Application\\Tiny Kitchen Application\\obj\\",
+        "projectPath": "C:\\Users\\chach\\source\\repos\\Tiny Kitchen Application\\Tiny Kitchen Application\\Tiny Kitchen Application.csproj",
+        "packagesPath": "C:\\Users\\chach\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\chach\\source\\repos\\Tiny Kitchen Application\\Tiny Kitchen Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\autum\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\chach\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "netcoreapp3.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "netcoreapp3.0": {
+            "targetAlias": "netcoreapp3.0",
             "projectReferences": {}
           }
         },
@@ -37,8 +37,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "netcoreapp3.0": {
+          "targetAlias": "netcoreapp3.0",
           "dependencies": {
             "MvvmLightLibs": {
               "target": "Package",
@@ -55,15 +55,33 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.0.3, 3.0.3]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             },
-            "Microsoft.WindowsDesktop.App.WPF": {
+            "Microsoft.WindowsDesktop.App": {
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     }

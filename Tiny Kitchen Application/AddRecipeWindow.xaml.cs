@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.IO;
 
+
 namespace Tiny_Kitchen_Application
 {
     /// <summary>
@@ -31,9 +32,8 @@ namespace Tiny_Kitchen_Application
             saveFileDialog.Filter = "Text file (*.txt)|*.txt|C# file (*.cs)|*.cs";
             if (saveFileDialog.ShowDialog() == true)
                 File.WriteAllText(saveFileDialog.FileName, RecipeTyped.Text);
+            }
         }
-
-    }
 
 }
 

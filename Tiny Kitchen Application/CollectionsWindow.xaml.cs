@@ -1,4 +1,7 @@
 ﻿using System;
+using System.IO;
+using Microsoft.Win32;
+using System.Windows.Forms;
 using System.Collections.Generic;
 using System.Text;
 using System.Windows;
@@ -24,12 +27,12 @@ namespace Tiny_Kitchen_Application
 
         public Collection()
         {
-
+            String name;
         }
     }
     public partial class CollectionsWindow : Window
     {
-       
+
         public CollectionsWindow()
         {
             InitializeComponent();
@@ -37,7 +40,7 @@ namespace Tiny_Kitchen_Application
 
         public void CreateCollectionButton_Click(object sender, RoutedEventArgs e)
         {
-            Collection collection = new Collection();
+
         }
     }
 }
