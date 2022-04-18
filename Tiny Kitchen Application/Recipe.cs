@@ -78,9 +78,9 @@ namespace Tiny_Kitchen_Application
                 string NewLine = "";
                 using (StreamReader steamReader = new StreamReader(_fileName))
                 {
-                    if (!NewLine.Contains("Recipe Description:"))
+                    while (!NewLine.Contains("Recipe Description:"))
                     {
-                        _recipeName = steamReader.ReadToEnd();
+                        //_ingredients.Add() = steamReader.ReadToEnd();
                     }
 
                 }
@@ -101,9 +101,9 @@ namespace Tiny_Kitchen_Application
                 string NewLine = "";
                 using (StreamReader steamReader = new StreamReader(_fileName))
                 {
-                    if (!NewLine.Contains("Recipe Ingredients:"))
+                    while (!NewLine.Contains("Recipe Description:"))
                     {
-                        _cookTime = steamReader.ReadToEnd();
+                        _cookTime = steamReader.ReadLine();
                     }
 
                 }
@@ -124,9 +124,9 @@ namespace Tiny_Kitchen_Application
                 string NewLine = "";
                 using (StreamReader steamReader = new StreamReader(_fileName))
                 {
-                    if (!NewLine.Contains("Recipe Calories:"))
+                    while (!NewLine.Contains("Recipe Description:"))
                     {
-                        _recipeName = steamReader.ReadToEnd();
+                        _description = steamReader.ReadLine();
                     }
 
                 }
