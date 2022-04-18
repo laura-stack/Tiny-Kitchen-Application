@@ -37,7 +37,7 @@ namespace Tiny_Kitchen_Application
 
         public void CreateCollectionButton_Click(object sender, RoutedEventArgs e)
         {
-            Collection collection = new Collection(); 
+            Collection collection = new Collection();
         }
     }
 }
