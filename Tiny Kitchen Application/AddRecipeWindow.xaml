@@ -10,8 +10,17 @@
     <Grid>
 
         <Label Content="Type recipe below,&#xD;&#xA;then click the save button." FontFamily="Verdana" FontSize="18" FontWeight="Medium" Margin="97,10,62,346" d:LayoutOverrides="HorizontalAlignment" Foreground="#D6C18A"/>
-        <TextBox Margin="97,88,90,103" TextWrapping="Wrap" Text="Recipe Name:&#xA;&#xA;Recipe Cook Time: &#xA;&#xA;Recipe Ingredients:&#xA;&#xA;Recipe Description:&#xD;&#xA;&#xD;&#xA;Recipe Calories: &#xA;&#xA;" d:LayoutOverrides="HorizontalAlignment, VerticalAlignment" Name="RecipeTyped" FontFamily="Verdana"/>
-        <Button Content="Save" FontFamily="Verdana" Margin="0,355,0,0" Background="#A7A88A" Foreground="#3A6A59" Click="Button_Click" Height="45" VerticalAlignment="Top" HorizontalAlignment="Center" Width="90"/>
 
+        <Label Content="Recipe Name:" Margin="0,93,325,0" HorizontalAlignment="Right" Width="87" Height="26" VerticalAlignment="Top"/>
+        <TextBox Name= "name" Margin="0,96,10,0" TextWrapping="Wrap" HorizontalAlignment="Right" Width="310" Height="23" VerticalAlignment="Top" TextChanged="name_TextChanged"/>
+
+        <Label Content="Recipe Description:" Margin="0,263,325,0" HorizontalAlignment="Right" Width="115" Height="33" VerticalAlignment="Top"/>
+        <TextBox Name ="description" Margin="0,263,10,0" TextWrapping="Wrap" HorizontalAlignment="Right" Width="308" Height="66" VerticalAlignment="Top"/>
+
+        <TextBox Margin="132,138,10,254" TextWrapping="Wrap" TextChanged="TextBox_TextChanged" d:LayoutOverrides="HorizontalAlignment"/>
+        <Label Content="Recipe Ingredients:" Margin="0,141,325,0" HorizontalAlignment="Right" Width="115" Height="39" VerticalAlignment="Top"/>
+
+        <Button Content="Save" FontFamily="Verdana" Margin="0,355,0,0" Background="#A7A88A" Foreground="#3A6A59" Click="Button_Click" Height="45" VerticalAlignment="Top" HorizontalAlignment="Center" Width="90"/>
+        
     </Grid>
 </Window>
