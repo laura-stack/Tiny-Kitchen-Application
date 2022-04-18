@@ -1,0 +1,15 @@
+C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\Tiny Kitchen Application.csproj.AssemblyReference.cache
+C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\MainWindow.baml
+C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\AddRecipeWindow.g.cs
+C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\CalendarWindow.g.cs
+C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\CollectionsWindow.g.cs
+C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\FindRecipesWindow.g.cs
+C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\MainWindow.g.cs
+C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\PantryWindow.g.cs
+C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\RecipeWindow.g.cs
+C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\SettingsWindow.g.cs
+C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\ShareWindow.g.cs
+C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\ShoppingListWindow.g.cs
+C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\App.g.cs
+C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\Tiny Kitchen Application_MarkupCompile.cache
+C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\Tiny Kitchen Application_MarkupCompile.lref

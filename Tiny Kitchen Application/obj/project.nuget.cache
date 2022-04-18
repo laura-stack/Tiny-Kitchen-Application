@@ -1,20 +1,24 @@
 {
   "version": 2,
-  "dgSpecHash": "KUDMNid+j8os6b3C9QFkeyBHm1tElzJoYVrLRxamSKTNZWQNR5WgT1EP9abcofk9bfPUXmQwgQFrLhDrWblYaA==",
+  "dgSpecHash": "1Dfd50VZeBwIZhXRcwuo/BBFHKg1iZErY+SIIDkDXRJTBind7MqRcR4as0sqY0uFLbTdwLsb1PYjInJS7LXR3g==",
   "success": true,
   "projectFilePath": "C:\\Users\\chach\\source\\repos\\Tiny Kitchen Application\\Tiny Kitchen Application\\Tiny Kitchen Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\chach\\.nuget\\packages\\mvvmlightlibs\\5.4.1.1\\mvvmlightlibs.5.4.1.1.nupkg.sha512"
+    "C:\\Users\\chach\\.nuget\\packages\\mvvmlightlibs\\5.4.1.1\\mvvmlightlibs.5.4.1.1.nupkg.sha512",
+    "C:\\Users\\chach\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.0.3\\microsoft.netcore.app.host.win-x64.3.0.3.nupkg.sha512",
+    "C:\\Users\\chach\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\chach\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\chach\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512"
   ],
   "logs": [
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'MvvmLightLibs 5.4.1.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "message": "Package 'MvvmLightLibs 5.4.1.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.0'. This package may not be fully compatible with your project.",
       "libraryId": "MvvmLightLibs",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        ".NETCoreApp,Version=v3.0"
       ]
     }
   ]

@@ -53,7 +53,7 @@ namespace Tiny_Kitchen_Application {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Tiny Kitchen Application;V1.0.0.0;component/sharewindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Tiny Kitchen Application;component/sharewindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\ShareWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

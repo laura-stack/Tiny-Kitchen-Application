@@ -22,6 +22,11 @@
   <ItemGroup>
     <PackageReference Include="MvvmLightLibs" Version="5.4.1.1" />
   </ItemGroup>
+  <PropertyGroup>
+		<TargetFramework>netcoreapp3.0</TargetFramework>
+		<UseWPF>true</UseWPF>
+		<UseWindowsForms>true</UseWindowsForms>
+	</PropertyGroup>
 
   <ItemGroup>
     <Resource Include="Add-icon.png" />
@@ -33,6 +38,10 @@
     <Resource Include="Share-Window-icon.png" />
     <Resource Include="Shop-icon.png" />
     <Resource Include="Time-And-Date-Calendar-icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Collections\" />
   </ItemGroup>
 
 </Project>
