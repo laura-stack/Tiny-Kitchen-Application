@@ -35,7 +35,7 @@ namespace Tiny_Kitchen_Application
             emailAddress = emailTyped.Text;
             MessageBox.Show(string.Format("Settings saved successfully.\n" + 
                 "Your current email is: " + emailAddress + "\n"+
-                "Calories turned off? " + calorieToggle + Recipe._recipeName));
+                "Calories turned off? " + calorieToggle));
         }
 
     }
