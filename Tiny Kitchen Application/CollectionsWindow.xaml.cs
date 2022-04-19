@@ -1,6 +1,7 @@
-﻿using System;
-using System.IO;
+﻿using GalaSoft.MvvmLight.Command;
 using Microsoft.Win32;
+using System;
+using System.IO;
 using System.Windows.Forms;
 using System.Collections.Generic;
 using System.Text;
@@ -45,13 +46,23 @@ namespace Tiny_Kitchen_Application
             //CreateCollection(); 
         }
 
-        public void CreateCollection()
+        public void CreateCollection(String name)
         {
             string path1 = @"C:\Users\chach\source\repos\Tiny-Kitchen-Application\Tiny Kitchen Application\Collections";
-            string path2 = System.IO.Path.Combine(path1, "temp2");
+            string path2 = System.IO.Path.Combine(path1, name);
 
             // Create directory temp1 if it doesn't exist
             Directory.CreateDirectory(path2);
         }
+
+        public void SaveCollectionName_Click(object sender, RoutedEventArgs e)
+        {
+            CreateCollection(collectionName.Text);
+            Popup_Window.IsOpen = false;
+        }
     }
+   
+
+    
 }
+
