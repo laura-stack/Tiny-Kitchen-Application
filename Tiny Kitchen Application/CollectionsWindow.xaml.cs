@@ -22,7 +22,7 @@ namespace Tiny_Kitchen_Application
 
     public class Collection
     {
-        string name; 
+        //string name; 
         //ArrayList<Recipes> recipes;
 
         public Collection()
@@ -40,8 +40,9 @@ namespace Tiny_Kitchen_Application
 
         public void CreateCollectionButton_Click(object sender, RoutedEventArgs e)
         {
-           // Popup_Window.IsOpen = true; 
-            CreateCollection(); 
+            //Popup_Window.Visibility = System.Windows.Visibility.Visible;
+             Popup_Window.IsOpen = true; 
+            //CreateCollection(); 
         }
 
         public void CreateCollection()
