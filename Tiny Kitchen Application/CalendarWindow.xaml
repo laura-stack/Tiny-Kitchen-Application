@@ -10,7 +10,11 @@
     <Grid>
         <Viewbox>
 
-            <Calendar DisplayMode="Year" SelectionMode="SingleRange"/>
+            <Calendar 
+                DisplayMode="Year" SelectionMode="SingleRange"
+                Background="#B9C8BC" BorderThickness="7"
+                />
+                
         </Viewbox>
 
 
