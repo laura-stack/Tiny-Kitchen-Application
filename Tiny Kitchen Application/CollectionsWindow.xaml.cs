@@ -40,7 +40,7 @@ namespace Tiny_Kitchen_Application
 
         public void CreateCollectionButton_Click(object sender, RoutedEventArgs e)
         {
-            //Popup_Window.Visibility = System.Windows.Visibility.Visible;
+            Popup_Window.Visibility = System.Windows.Visibility.Visible;
              Popup_Window.IsOpen = true; 
             //CreateCollection(); 
         }

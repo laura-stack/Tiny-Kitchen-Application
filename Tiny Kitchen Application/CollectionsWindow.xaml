@@ -12,15 +12,15 @@
         <ToggleButton FontFamily="Verdana" Margin="364,24,0,0" Background="#A7A88A" Foreground="#3A6A59" Click="CreateCollectionButton_Click" Height="71" VerticalAlignment="Top" HorizontalAlignment="Left" Width="70">
             <Image Height="100" Width="100"/>
         </ToggleButton>
-        <Popup Margin="10,10,0,13" Name="Popup_Window" HorizontalAlignment="Center" VerticalAlignment="Center" Placement="Center" Width="194" Height="200" IsOpen="False">
-            <StackPanel>
-                <Label Content="Please Enter Collection Name:" Margin="0,93,325,0" HorizontalAlignment="Right" Width="87" Height="26" VerticalAlignment="Top" Background="White"
-                       FontFamily="Verdana" FontSize="16" Foreground="White" />
-                <TextBox Name= "collectionName" Margin="0,96,10,0" TextWrapping="Wrap" HorizontalAlignment="Right" Width="310" Height="23" VerticalAlignment="Top"/>
-            </StackPanel>
+        <Popup Margin="10,10,0,13" Name="Popup_Window" HorizontalAlignment="Center" VerticalAlignment="Center" Placement="Center" Width="250" Height="200" AllowsTransparency="True" IsOpen="False">
+            <Grid Background="#A7A88A">
+                <Label Content="Enter Collection Name:" Margin="0, 0, 0, 0" HorizontalAlignment="Center" Width="150" Height="50"  VerticalAlignment="Top"/>
+                <TextBox Name= "collectionName" Margin="0,96,10,0" TextWrapping="Wrap" HorizontalAlignment="Center" Width="150" Height="23" VerticalAlignment="Top"/>
+            </Grid>
         </Popup>
         <Image HorizontalAlignment="Left" Height="49" Margin="384,33,0,0" VerticalAlignment="Top" Width="32" Source="/Add-icon.png"/>
         <Label Content="Create" FontFamily ="Verdana" HorizontalAlignment="Left" Margin="374,68,0,0" VerticalAlignment="Top"/>
+        
 
 
     </Grid>
