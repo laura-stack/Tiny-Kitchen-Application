@@ -75,8 +75,6 @@ namespace Tiny_Kitchen_Application
 		{
 			CalendarWindow calendarWindow = new CalendarWindow();
 			calendarWindow.Show();
-			calendarWindow.Height = 450;
-			calendarWindow.Width = 450;
 		}
 		public void ShoppingListButton_Click(object sender, RoutedEventArgs e)
 		{

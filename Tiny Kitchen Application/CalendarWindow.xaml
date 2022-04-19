@@ -5,8 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Tiny_Kitchen_Application"
         mc:Ignorable="d"
-        Title="CalendarWindow" Height="450" Width="800">
+        Title="CalendarWindow" Height="450" Width="450"
+        Background="#3A6A59">
     <Grid>
-        
+        <Viewbox>
+
+            <Calendar DisplayMode="Year" SelectionMode="SingleRange"/>
+        </Viewbox>
+
+
+
     </Grid>
 </Window>
