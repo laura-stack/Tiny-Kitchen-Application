@@ -21,6 +21,15 @@ namespace Tiny_Kitchen_Application
     /// </summary>
     public partial class AddRecipeWindow : Window
     {
+        // Unsure if we will need these variables here.
+        // Ingredients may need to be tweaked. 
+        public static string recipeNameVar { get; set; }
+        public static string ingredientsVar { get; set; }
+        public static string cookTimeVar { get; set; }
+        public static string caloriesVar { get; set; }
+        public static string descriptionVar { get; set; }
+
+
         public AddRecipeWindow()
         {
             InitializeComponent();
