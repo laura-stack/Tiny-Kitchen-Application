@@ -51,13 +51,18 @@ namespace Tiny_Kitchen_Application
             string path1 = @"C:\Users\chach\source\repos\Tiny-Kitchen-Application\Tiny Kitchen Application\Collections";
             string path2 = System.IO.Path.Combine(path1, name);
 
-            // Create directory temp1 if it doesn't exist
+            // Create directory if it doesn't exist
             Directory.CreateDirectory(path2);
         }
 
         public void SaveCollectionName_Click(object sender, RoutedEventArgs e)
         {
             CreateCollection(collectionName.Text);
+            Popup_Window.IsOpen = false;
+        }
+
+        public void ExitCollectionCreator_Click(object sender, RoutedEventArgs e)
+        {
             Popup_Window.IsOpen = false;
         }
     }
