@@ -57,3 +57,32 @@ C:\Users\autum\Source\Repos\Tiny-Kitchen-Application\Tiny Kitchen Application\ob
 C:\Users\autum\Source\Repos\Tiny-Kitchen-Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\Tiny Kitchen Application.dll
 C:\Users\autum\Source\Repos\Tiny-Kitchen-Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\Tiny Kitchen Application.pdb
 C:\Users\autum\Source\Repos\Tiny-Kitchen-Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\Tiny Kitchen Application.genruntimeconfig.cache
+C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\bin\Debug\netcoreapp3.0\Tiny Kitchen Application.exe
+C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\bin\Debug\netcoreapp3.0\Tiny Kitchen Application.deps.json
+C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\bin\Debug\netcoreapp3.0\Tiny Kitchen Application.runtimeconfig.json
+C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\bin\Debug\netcoreapp3.0\Tiny Kitchen Application.runtimeconfig.dev.json
+C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\bin\Debug\netcoreapp3.0\Tiny Kitchen Application.dll
+C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\bin\Debug\netcoreapp3.0\Tiny Kitchen Application.pdb
+C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\bin\Debug\netcoreapp3.0\GalaSoft.MvvmLight.Extras.dll
+C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\bin\Debug\netcoreapp3.0\GalaSoft.MvvmLight.Platform.dll
+C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\bin\Debug\netcoreapp3.0\GalaSoft.MvvmLight.dll
+C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\bin\Debug\netcoreapp3.0\System.Windows.Interactivity.dll
+C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\App.baml
+C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\AddRecipeWindow.baml
+C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\CalendarWindow.baml
+C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\CollectionsWindow.baml
+C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\FindRecipesWindow.baml
+C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\PantryWindow.baml
+C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\RecipeWindow.baml
+C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\SettingsWindow.baml
+C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\ShareWindow.baml
+C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\ShoppingListWindow.baml
+C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\Tiny Kitchen Application.g.resources
+C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\Tiny Kitchen Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\Tiny Kitchen Application.AssemblyInfoInputs.cache
+C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\Tiny Kitchen Application.AssemblyInfo.cs
+C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\Tiny Kitchen Application.csproj.CoreCompileInputs.cache
+C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\Tiny Kitchen Application.csproj.CopyComplete
+C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\Tiny Kitchen Application.dll
+C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\Tiny Kitchen Application.pdb
+C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\Tiny Kitchen Application.genruntimeconfig.cache

@@ -40,7 +40,17 @@ namespace Tiny_Kitchen_Application
 
         public void CreateCollectionButton_Click(object sender, RoutedEventArgs e)
         {
+           // Popup_Window.IsOpen = true; 
+            CreateCollection(); 
+        }
 
+        public void CreateCollection()
+        {
+            string path1 = @"C:\Users\chach\source\repos\Tiny-Kitchen-Application\Tiny Kitchen Application\Collections";
+            string path2 = System.IO.Path.Combine(path1, "temp2");
+
+            // Create directory temp1 if it doesn't exist
+            Directory.CreateDirectory(path2);
         }
     }
 }
