@@ -6,7 +6,7 @@
       "version": "3.0.0"
     },
     "additionalProbingPaths": [
-      "C:\\Users\\autum\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\chach\\.dotnet\\store\\|arch|\\|tfm|",
       "C:\\Users\\autum\\.nuget\\packages"
     ],
     "configProperties": {

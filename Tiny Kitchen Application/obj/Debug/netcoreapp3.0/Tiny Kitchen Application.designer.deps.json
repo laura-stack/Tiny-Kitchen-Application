@@ -6,26 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.0": {
-      "MvvmLightLibs/5.4.1.1": {
-        "runtime": {
-          "lib/net45/GalaSoft.MvvmLight.Extras.dll": {
-            "assemblyVersion": "5.4.1.0",
-            "fileVersion": "5.4.1.0"
-          },
-          "lib/net45/GalaSoft.MvvmLight.Platform.dll": {
-            "assemblyVersion": "5.4.1.0",
-            "fileVersion": "5.4.1.0"
-          },
-          "lib/net45/GalaSoft.MvvmLight.dll": {
-            "assemblyVersion": "5.4.1.0",
-            "fileVersion": "5.4.1.0"
-          },
-          "lib/net45/System.Windows.Interactivity.dll": {
-            "assemblyVersion": "4.5.0.0",
-            "fileVersion": "3.0.40218.0"
-          }
-        }
-      }
+      "MvvmLightLibs/5.4.1.1": {}
     }
   },
   "libraries": {
