@@ -80,12 +80,17 @@ namespace Tiny_Kitchen_Application
             Nullable<bool> result = openFileDlg.ShowDialog();
         }
 
+        public void DeleteCollection_Click(object sender, RoutedEventArgs e)
+        {
+            Microsoft.Win32.OpenFileDialog openFileDlg = new Microsoft.Win32.OpenFileDialog();
+            Nullable<bool> result = openFileDlg.ShowDialog();
+        }
         public void ExitCollectionCreator_Click(object sender, RoutedEventArgs e)
         {
             Popup_Window.IsOpen = false;
         }
 
-
+       
     }
    
 
