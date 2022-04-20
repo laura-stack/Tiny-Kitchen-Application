@@ -1,6 +1,7 @@
-﻿using System;
-using System.IO;
+﻿using GalaSoft.MvvmLight.Command;
 using Microsoft.Win32;
+using System;
+using System.IO;
 using System.Windows.Forms;
 using System.Collections.Generic;
 using System.Text;
@@ -22,7 +23,7 @@ namespace Tiny_Kitchen_Application
 
     public class Collection
     {
-        string name; 
+        //string name; 
         //ArrayList<Recipes> recipes;
 
         public Collection()
@@ -40,7 +41,33 @@ namespace Tiny_Kitchen_Application
 
         public void CreateCollectionButton_Click(object sender, RoutedEventArgs e)
         {
+            Popup_Window.Visibility = System.Windows.Visibility.Visible;
+             Popup_Window.IsOpen = true; 
+            //CreateCollection(); 
+        }
 
+        public void CreateCollection(String name)
+        {
+            string path1 = @"C:\Users\chach\source\repos\Tiny-Kitchen-Application\Tiny Kitchen Application\Collections";
+            string path2 = System.IO.Path.Combine(path1, name);
+
+            // Create directory if it doesn't exist
+            Directory.CreateDirectory(path2);
+        }
+
+        public void SaveCollectionName_Click(object sender, RoutedEventArgs e)
+        {
+            CreateCollection(collectionName.Text);
+            Popup_Window.IsOpen = false;
+        }
+
+        public void ExitCollectionCreator_Click(object sender, RoutedEventArgs e)
+        {
+            Popup_Window.IsOpen = false;
         }
     }
+   
+
+    
 }
+
