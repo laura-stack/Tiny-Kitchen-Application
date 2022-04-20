@@ -13,6 +13,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Diagnostics;
 
 namespace Tiny_Kitchen_Application
 {
@@ -23,12 +24,22 @@ namespace Tiny_Kitchen_Application
 
     public class Collection
     {
-        //string name; 
+        string name; 
         //ArrayList<Recipes> recipes;
 
         public Collection()
         {
-            String name;
+            String name = "";
+        }
+
+        public void setCollectionName(String n)
+        {
+            name = n;
+        }
+
+        public String getCollectionName()
+        {
+            return name;
         }
     }
     public partial class CollectionsWindow : Window
@@ -46,10 +57,12 @@ namespace Tiny_Kitchen_Application
             //CreateCollection(); 
         }
 
-        public void CreateCollection(String name)
+        public void CreateCollection(String n)
         {
-            string path1 = @"C:\Users\chach\source\repos\Tiny-Kitchen-Application\Tiny Kitchen Application\Collections";
-            string path2 = System.IO.Path.Combine(path1, name);
+            string path1 = @"C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\Collections";
+            string path2 = System.IO.Path.Combine(path1, n);
+            Collection collection = new Collection();
+            collection.setCollectionName(n);
 
             // Create directory if it doesn't exist
             Directory.CreateDirectory(path2);
@@ -61,10 +74,18 @@ namespace Tiny_Kitchen_Application
             Popup_Window.IsOpen = false;
         }
 
+        public void ViewCollection_Click(object sender, RoutedEventArgs e)
+        {
+            Microsoft.Win32.OpenFileDialog openFileDlg = new Microsoft.Win32.OpenFileDialog();
+            Nullable<bool> result = openFileDlg.ShowDialog();
+        }
+
         public void ExitCollectionCreator_Click(object sender, RoutedEventArgs e)
         {
             Popup_Window.IsOpen = false;
         }
+
+
     }
    
 
