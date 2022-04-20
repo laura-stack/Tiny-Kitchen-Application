@@ -12,9 +12,12 @@ using System.Windows.Shapes;
 
 namespace Tiny_Kitchen_Application
 {
-    /// <summary>
-    /// Interaction logic for FindRecipesWindow.xaml
-    /// </summary>
+     private string appID= "faef1f70";
+        private string apiKey="382682029b8bfe878596ffd8332acfd6"; 
+        async function sendApiRequest(){
+            response = await fetch("https://api.edamam.com/api/recipes/v2?app_id="+appID+"app_key="+apiKey);
+            console.log(response); 
+         }
     public partial class FindRecipesWindow : Window
     {
         public FindRecipesWindow()
