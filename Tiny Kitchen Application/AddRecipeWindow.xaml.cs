@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.IO;
+using System.Collections;
 
 
 namespace Tiny_Kitchen_Application
@@ -33,8 +34,8 @@ namespace Tiny_Kitchen_Application
         public AddRecipeWindow()
         {
             InitializeComponent();
+            DataContext = Recipe.addValues();
         }
-
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
@@ -49,7 +50,31 @@ namespace Tiny_Kitchen_Application
                 "Calories: " + calories.Text + '\n' +
                 "Description: " + description.Text + '\n'
                 );
-            }
+
+            Recipe recipeEx = new Recipe();
+            recipeEx.RecipeName = recipeName.Text;
+            recipeEx.CookTime = cookTime.Text;
+            recipeEx.Calories = calories.Text;
+            recipeEx.Description = description.Text;
+
+            Recipe.recipesList.Add(recipeEx);
+
+            Recipe.ingredientsList.Add(ingredients.Text);
+
+            // Testing code to make sure the recipe arraylist works
+
+            MessageBox.Show(string.Format("Your recipe: " + "\n"
+                + "Name: " + recipeEx.RecipeName + "\n" +
+                "CookTime: " + recipeEx.CookTime + "\n" +
+                "Calories: " + recipeEx.Calories + "\n" +
+                "Description: " + recipeEx.Description + "\n" +
+                "ArrayList Object Count: " + Recipe.recipesList.Count + "\n" +
+                "Ingredients for Object 0: " + Recipe.ingredientsList[0].ToString()
+                )) ;
+            
+        }
+
+
     }
 
 }
