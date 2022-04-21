@@ -59,9 +59,11 @@ namespace Tiny_Kitchen_Application
 
             Recipe.recipesList.Add(recipeEx);
 
-
+            // Create array of split recipe items
             Recipe.ingredientsList = ingredients.Text.Split(',');
-            int[] intItems = (from s in Recipe.ingredientsList select int.Parse(s)).ToArray();
+
+            // Create arraylist of those arrays that align with recipe
+            Recipe.listOfIngredientsLists.Add(Recipe.ingredientsList);
 
 
             // Testing code to make sure the recipe arraylist works
