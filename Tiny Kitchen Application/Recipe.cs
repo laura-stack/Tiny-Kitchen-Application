@@ -16,12 +16,18 @@ namespace Tiny_Kitchen_Application
         public static string _calories { get; set; }
         public static string _description { get; set; }
 
+        // Unedited string of ingredients related to the recipe object; 
+        // What is typed in raw by user in AddRecipeWindow
         public static string _ingredients { get; set; } 
 
+        // List of recipes added by user; recipe objects have all properties in this class
         public static List<Recipe> recipesList = new List<Recipe>();
 
+        // List of all ingredients arrays; aligns with recipesList array number
+        // Ex. Recipe list at [5] will align with ingredients list at [5]
         public static List<Object> allIngredientsLists = new List<Object>();
 
+        // Edited ingredients array based off of raw user typing; split by comma
         public static string[] ingredientsList;
 
         public string RecipeName  
