@@ -9,12 +9,9 @@ namespace Tiny_Kitchen_Application
     internal interface IRecipe
     {
         string RecipeName { get; set; }
-        ArrayList Ingredients { get; set; }
         string CookTime { get; set; }
         string Calories { get; set; }
         string Description { get; set; }
-        //string FileName { get; set; }
-        
 
         public void deleteRecipe(string fileName, LinkedList<string> Recipes)
         {
