@@ -16,9 +16,10 @@ namespace Tiny_Kitchen_Application
         public static string _calories { get; set; }
         public static string _description { get; set; }
 
+        public static string _ingreients { get; set; } 
+
         public static List<Recipe> recipesList = new List<Recipe>();
 
-        public static List<Object> listOfIngredientsLists = new List<Object>();
         public static string[] ingredientsList;
 
         public string RecipeName  
@@ -45,13 +46,10 @@ namespace Tiny_Kitchen_Application
             set { _description = value; }
         }
 
-        public static Recipe addValues()
+        public string Ingredients
         {
-            var rec = new Recipe();
-            {
-                rec.RecipeName = _recipeName;
-            };
-            return rec;
+            get { return _ingreients; }
+            set { _ingreients = value; }
         }
 
     }

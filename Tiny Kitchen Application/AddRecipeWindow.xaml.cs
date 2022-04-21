@@ -34,7 +34,6 @@ namespace Tiny_Kitchen_Application
         public AddRecipeWindow()
         {
             InitializeComponent();
-            DataContext = Recipe.addValues();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -56,15 +55,12 @@ namespace Tiny_Kitchen_Application
             recipeEx.CookTime = cookTime.Text;
             recipeEx.Calories = calories.Text;
             recipeEx.Description = description.Text;
+            recipeEx.Ingredients = ingredients.Text;
 
             Recipe.recipesList.Add(recipeEx);
 
             // Create array of split recipe items
             Recipe.ingredientsList = ingredients.Text.Split(',');
-
-            // Create arraylist of those arrays that align with recipe
-            Recipe.listOfIngredientsLists.Add(Recipe.ingredientsList);
-
 
             // Testing code to make sure the recipe arraylist works
             /*
@@ -77,7 +73,13 @@ namespace Tiny_Kitchen_Application
                 )) ;
             */
 
+            // Testing code to make sure that items are added in the individual
+            // ingredients array using split
 
+            /*
+             MessageBox.Show(string.Format("Your ingredients for this recipe: " +
+                Recipe.ingredientsList[0].ToString() + Recipe.ingredientsList[1].ToString()));
+            */
         }
 
     }
