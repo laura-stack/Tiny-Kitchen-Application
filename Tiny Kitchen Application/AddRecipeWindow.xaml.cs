@@ -62,6 +62,9 @@ namespace Tiny_Kitchen_Application
             // Create array of split recipe items
             Recipe.ingredientsList = ingredients.Text.Split(',');
 
+            // Add that array to the list of ingredients lists
+            Recipe.allIngredientsLists.Add(Recipe.ingredientsList);
+
             // Testing code to make sure the recipe arraylist works
             /*
             MessageBox.Show(string.Format("Your recipe: " + "\n"
