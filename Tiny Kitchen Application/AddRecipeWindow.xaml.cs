@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.IO;
 using System.Collections;
-
+using System.Linq;
 
 namespace Tiny_Kitchen_Application
 {
@@ -43,13 +43,13 @@ namespace Tiny_Kitchen_Application
             SaveFileDialog saveFileDialog = new SaveFileDialog();
             saveFileDialog.Filter = "Text file (*.txt)|*.txt|C# file (*.cs)|*.cs";
             if (saveFileDialog.ShowDialog() == true)
-            File.WriteAllText(saveFileDialog.FileName, 
-                "Name: " + recipeName.Text + '\n' + 
-                "Ingredients: " + ingredients.Text + '\n' +
-                "Cook Time: " + cookTime.Text + '\n' +
-                "Calories: " + calories.Text + '\n' +
-                "Description: " + description.Text + '\n'
-                );
+                File.WriteAllText(saveFileDialog.FileName,
+                    "Name: " + recipeName.Text + '\n' +
+                    "Ingredients: " + ingredients.Text + '\n' +
+                    "Cook Time: " + cookTime.Text + '\n' +
+                    "Calories: " + calories.Text + '\n' +
+                    "Description: " + description.Text + '\n'
+                    );
 
             Recipe recipeEx = new Recipe();
             recipeEx.RecipeName = recipeName.Text;
@@ -59,24 +59,26 @@ namespace Tiny_Kitchen_Application
 
             Recipe.recipesList.Add(recipeEx);
 
-            Recipe.ingredientsList.Add(ingredients.Text);
+
+            Recipe.ingredientsList = ingredients.Text.Split(',');
+            int[] intItems = (from s in Recipe.ingredientsList select int.Parse(s)).ToArray();
+
 
             // Testing code to make sure the recipe arraylist works
-
+            /*
             MessageBox.Show(string.Format("Your recipe: " + "\n"
                 + "Name: " + recipeEx.RecipeName + "\n" +
                 "CookTime: " + recipeEx.CookTime + "\n" +
                 "Calories: " + recipeEx.Calories + "\n" +
                 "Description: " + recipeEx.Description + "\n" +
                 "ArrayList Object Count: " + Recipe.recipesList.Count + "\n" +
-                "Ingredients for Object 0: " + Recipe.ingredientsList[0].ToString()
                 )) ;
-            
+            */
+
+
         }
 
-
     }
-
 }
 
 

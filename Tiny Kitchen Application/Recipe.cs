@@ -17,7 +17,7 @@ namespace Tiny_Kitchen_Application
         public static string _description { get; set; }
 
         public static List<Recipe> recipesList = new List<Recipe>();
-        public static List<String> ingredientsList = new List<String>();
+        public static string[] ingredientsList;
 
         public string RecipeName  
         {
