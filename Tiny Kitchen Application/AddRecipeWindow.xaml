@@ -9,7 +9,7 @@
         Background="#3A6A59">
     <Grid>
 
-        <Label Content="Type recipe below,&#xA;then click the save button.&#xD;&#xA;Enter ingredinets seperated by &#xD;&#xA;comma. " FontFamily="Verdana" FontSize="10" FontWeight="Medium" Margin="10,10,146,346" d:LayoutOverrides="HorizontalAlignment" Foreground="#D6C18A"/>
+        <Label Content="Type your recipe and save below. &#xD;&#xA;Please enter ingredients seperated by comma. " FontFamily="Verdana" FontSize="16" FontWeight="Medium" Margin="10,10,30,346" Foreground="#D6C18A" d:LayoutOverrides="HorizontalAlignment"/>
 
         <Label Content="Recipe Name:" Margin="0,93,325,0" HorizontalAlignment="Right" Width="87" Height="26" VerticalAlignment="Top"/>
         <TextBox Name= "recipeName" Margin="0,96,10,0" TextWrapping="Wrap" HorizontalAlignment="Right" Width="310" Height="23" VerticalAlignment="Top"/>
