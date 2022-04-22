@@ -33,8 +33,7 @@ namespace Tiny_Kitchen_Application
         private void Test_Click(object sender, RoutedEventArgs e)
         {
             if (MyCombobox1.SelectedItem != null)
-            {
-                //ComboBoxItem cbi1 = (ComboBoxItem)(sender as ComboBox).SelectedItem;
+            {  
                 ComboBoxItem cbi = (ComboBoxItem)MyCombobox1.SelectedItem;
                 emailProvider = cbi.Content.ToString();
             }
