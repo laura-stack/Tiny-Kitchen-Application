@@ -20,7 +20,7 @@ namespace Tiny_Kitchen_Application
     public partial class SettingsWindow : Window
     {
 
-        public static string emailAddress { get; set; }
+        public static string emailProvider { get; set; }
 
         public static bool calorieToggle { get; set; }
 
@@ -32,9 +32,14 @@ namespace Tiny_Kitchen_Application
 
         private void Test_Click(object sender, RoutedEventArgs e)
         {
-            emailAddress = emailTyped.Text;
+            if (MyCombobox1.SelectedItem != null)
+            {
+                //ComboBoxItem cbi1 = (ComboBoxItem)(sender as ComboBox).SelectedItem;
+                ComboBoxItem cbi = (ComboBoxItem)MyCombobox1.SelectedItem;
+                string selectedText = cbi.Content.ToString();
+            }
             MessageBox.Show(string.Format("Settings saved successfully.\n" + 
-                "Your current email is: " + emailAddress + "\n"+
+                "Your current email provider is: " + emailProvider + "\n"+
                 "Calories turned off? " + calorieToggle));
         }
 
