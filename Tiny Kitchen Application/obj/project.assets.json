@@ -144,19 +144,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\autum\\.nuget\\packages\\": {}
+    "C:\\Users\\chach\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\autum\\Source\\Repos\\Tiny-Kitchen-Application\\Tiny Kitchen Application\\Tiny Kitchen Application.csproj",
+      "projectUniqueName": "C:\\Users\\chach\\source\\repos\\Tiny Kitchen Application\\Tiny Kitchen Application\\Tiny Kitchen Application.csproj",
       "projectName": "Tiny Kitchen Application",
-      "projectPath": "C:\\Users\\autum\\Source\\Repos\\Tiny-Kitchen-Application\\Tiny Kitchen Application\\Tiny Kitchen Application.csproj",
-      "packagesPath": "C:\\Users\\autum\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\autum\\Source\\Repos\\Tiny-Kitchen-Application\\Tiny Kitchen Application\\obj\\",
+      "projectPath": "C:\\Users\\chach\\source\\repos\\Tiny Kitchen Application\\Tiny Kitchen Application\\Tiny Kitchen Application.csproj",
+      "packagesPath": "C:\\Users\\chach\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\chach\\source\\repos\\Tiny Kitchen Application\\Tiny Kitchen Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\autum\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\chach\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -223,7 +223,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
       }
     }
   },
