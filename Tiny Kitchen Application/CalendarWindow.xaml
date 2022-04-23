@@ -5,19 +5,28 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Tiny_Kitchen_Application"
         mc:Ignorable="d"
-        Title="CalendarWindow" Height="450" Width="450"
+        Title="CalendarWindow" Height="450" Width="700"
         Background="#3A6A59">
     <Grid>
-        <Viewbox>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Calendar Name="calendar" BorderThickness="10" Background="#B9C8BC" HorizontalAlignment="Left" Margin="10,40,0,0" 
+            VerticalAlignment="Top" DisplayMode="Month"
+            FirstDayOfWeek="Monday" IsTodayHighlighted="True"
+            SelectedDatesChanged="Calendar_SelectedDatesChanged" Height="218" Width="401" Grid.ColumnSpan="2">
+            <Calendar.BlackoutDates>
+                <CalendarDateRange Start="4/2/2020" End="4/5/2020"/>
+            </Calendar.BlackoutDates>
+            <Calendar.SelectedDates>
+            </Calendar.SelectedDates>
+        </Calendar>
+        <TextBox Name="selectedDate" Height="23" Margin="118,258,398,0" 
+            TextWrapping="Wrap" Text="Date Selected: " VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+        <TextBox Name="calendarNotes" Margin="411,40,17,35" TextWrapping="Wrap" Text="Notes: " Grid.ColumnSpan="2" d:LayoutOverrides="VerticalAlignment"/>
 
-            <Calendar 
-                DisplayMode="Year" SelectionMode="SingleRange"
-                Background="#B9C8BC" BorderThickness="7"
-                />
-                
-        </Viewbox>
-
-
+        <Button Content="Save" FontFamily="Verdana" Margin="168,0,0,79" Background="#A7A88A" Foreground="#3A6A59" Click="Button_Click" Height="37" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="86" Grid.ColumnSpan="2"/>
 
     </Grid>
 </Window>
