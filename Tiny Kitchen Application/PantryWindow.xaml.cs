@@ -104,7 +104,7 @@ namespace Tiny_Kitchen_Application
         public void SaveRemoval_Click(object sender, RoutedEventArgs e)
         {
             RemovePantryItem();
-            RemoveItem_Popup.IsOpen = false; 
+            RemoveItem_Popup.IsOpen = false;
         }
 
         public void ExitPantryRemoval_Click(object sender, RoutedEventArgs e)
