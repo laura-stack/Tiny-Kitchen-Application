@@ -31,7 +31,7 @@
         </Popup>
         <Image HorizontalAlignment="Left" Height="49" Margin="384,33,0,0" VerticalAlignment="Top" Width="32" Source="/Add-icon.png"/>
         <Label Content="Add" FontFamily ="Verdana" HorizontalAlignment="Left" Margin="382,68,0,0" VerticalAlignment="Top"/>
-        <ListBox Name="PantryList_Box" Margin="75,87,123,64" Grid.RowSpan="2"/>
+        <Button Content="View Pantry" Click="ViewPantry_Click" Background="#A7A88A" FontFamily="Verdana" FontSize="14" HorizontalAlignment="Left" Margin="160,104,0,0" VerticalAlignment="Top" Height="45" Grid.RowSpan="2" Width="141"/>
 
 
 

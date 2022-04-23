@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using System.Diagnostics; 
 using System.Collections.Generic;
 using System.Text;
 using System.Windows;
@@ -12,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.IO;
+using System.Windows.Forms;
 
 namespace Tiny_Kitchen_Application
 {
@@ -52,7 +54,7 @@ namespace Tiny_Kitchen_Application
         //public System.Windows.Forms.ListBox.ObjectCollection Items { get; }
         //ListBox listbox = new ListBox(); 
 
-        string path = @"C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\Pantry.txt";
+        string path = @"C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\Pantry\Pantry.txt";
         public PantryWindow()
         {
             InitializeComponent();
@@ -87,6 +89,17 @@ namespace Tiny_Kitchen_Application
             Pantry_Popup.IsOpen = false;
         }
 
+        public void ViewPantry_Click(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog openFile = new OpenFileDialog()
+            {
+                InitialDirectory = @"C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\Pantry"
+            };
+            openFile.ShowDialog(); 
 
+
+        }
+
+       
     }
 }
