@@ -21,5 +21,23 @@ namespace Tiny_Kitchen_Application
         {
             InitializeComponent();
         }
+        
+        private void MyCalendar_SelectedDatesChanged(object sender, SelectionChangedEventArgs e)
+        {
+            var calendar = sender as Calendar;
+            if (calendar.SelectedDate.HasValue)
+            {
+                {
+                    DateTime d = calendar.SelectedDate.Value;
+                    try
+                    {
+                        selectedDate.Text = d.ToShortDateString();
+                    }
+                    catch (NullReferenceException) { }
+
+                }
+            }
+        }
     }
+
 }
