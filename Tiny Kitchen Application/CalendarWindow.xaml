@@ -15,7 +15,7 @@
         <Calendar Name="calendar" BorderThickness="10" Background="#B9C8BC" HorizontalAlignment="Left" Margin="10,40,0,0" 
             VerticalAlignment="Top" DisplayMode="Month"
             FirstDayOfWeek="Monday" IsTodayHighlighted="True"
-            SelectedDatesChanged="MyCalendar_SelectedDatesChanged" Height="218" Width="401" Grid.ColumnSpan="2">
+            SelectedDatesChanged="Calendar_SelectedDatesChanged" Height="218" Width="401" Grid.ColumnSpan="2">
             <Calendar.BlackoutDates>
                 <CalendarDateRange Start="4/2/2020" End="4/5/2020"/>
             </Calendar.BlackoutDates>
@@ -24,8 +24,9 @@
         </Calendar>
         <TextBox Name="selectedDate" Height="23" Margin="118,258,398,0" 
             TextWrapping="Wrap" Text="Date Selected: " VerticalAlignment="Top" Grid.ColumnSpan="2"/>
-        <TextBox Name="notes" Margin="411,40,17,35" TextWrapping="Wrap" Text="Notes: " Grid.ColumnSpan="2" d:LayoutOverrides="VerticalAlignment"/>
+        <TextBox Name="calendarNotes" Margin="411,40,17,35" TextWrapping="Wrap" Text="Notes: " Grid.ColumnSpan="2" d:LayoutOverrides="VerticalAlignment"/>
 
+        <Button Content="Save" FontFamily="Verdana" Margin="168,0,0,79" Background="#A7A88A" Foreground="#3A6A59" Click="Button_Click" Height="37" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="86" Grid.ColumnSpan="2"/>
 
     </Grid>
 </Window>

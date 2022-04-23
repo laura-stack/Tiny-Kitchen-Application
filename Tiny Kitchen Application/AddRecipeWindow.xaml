@@ -6,25 +6,25 @@
         xmlns:local="clr-namespace:Tiny_Kitchen_Application"
         mc:Ignorable="d"
         Title="AddRecipeWindow" Height="450" Width="450"
-        Background="#3A6A59">
+        Background="#3A6A59" FontFamily="Verdana">
     <Grid>
 
         <Label Content="Type your recipe and save below. &#xD;&#xA;Please enter ingredients seperated by comma. " FontFamily="Verdana" FontSize="16" FontWeight="Medium" Margin="10,10,30,346" Foreground="#D6C18A" d:LayoutOverrides="HorizontalAlignment"/>
 
-        <Label Content="Recipe Name:" Margin="0,93,325,0" HorizontalAlignment="Right" Width="87" Height="26" VerticalAlignment="Top"/>
+        <Label Content="Recipe Name:" Margin="0,93,325,0" HorizontalAlignment="Right" Width="98" Height="26" VerticalAlignment="Top" Foreground="#D6C18A"/>
         <TextBox Name= "recipeName" Margin="0,96,10,0" TextWrapping="Wrap" HorizontalAlignment="Right" Width="310" Height="23" VerticalAlignment="Top"/>
 
-        <TextBox Name="ingredients" Margin="132,138,10,0" TextWrapping="Wrap" d:LayoutOverrides="HorizontalAlignment" Height="42" VerticalAlignment="Top"/>
-        <Label Content="Recipe Ingredients:" Margin="0,141,325,0" HorizontalAlignment="Right" Width="115" Height="39" VerticalAlignment="Top"/>
+        <TextBox Name="ingredients" Margin="132,138,10,0" TextWrapping="Wrap" d:LayoutOverrides="HorizontalAlignment" Height="42" VerticalAlignment="Top" />
+        <Label Content="Recipe Ingredients:" Margin="0,138,318,0" HorizontalAlignment="Right" Width="129" Height="39" VerticalAlignment="Top" Foreground="#D6C18A"/>
 
-        <Label Content="Recipe Description:" Margin="0,296,325,0" HorizontalAlignment="Right" Width="115" Height="33" VerticalAlignment="Top"/>
-        <TextBox Name ="description" Margin="0,296,10,0" TextWrapping="Wrap" HorizontalAlignment="Right" Width="308" Height="66" VerticalAlignment="Top"/>
+        <Label Content="Recipe Description:" Margin="0,296,323,0" HorizontalAlignment="Right" Width="125" Height="33" VerticalAlignment="Top" Foreground="#D6C18A"/>
+        <TextBox Name ="description" Margin="0,296,10,0" TextWrapping="Wrap" HorizontalAlignment="Right" Width="308" Height="66" VerticalAlignment="Top" />
 
         <TextBox Name="cookTime" Margin="131,204,10,0" TextWrapping="Wrap" d:LayoutOverrides="HorizontalAlignment, Height" Height="21" VerticalAlignment="Top"/>
-        <Label Content="Recipe Cook Time:" Margin="0,202,319,0" HorizontalAlignment="Right" Width="115" VerticalAlignment="Top"/>
+        <Label Content="Recipe Cook Time:" Margin="0,202,322,0" HorizontalAlignment="Right" Width="121" VerticalAlignment="Top" Foreground="#D6C18A" Height="23"/>
 
         <TextBox Name="calories" Margin="130,249,11,0" TextWrapping="Wrap" d:LayoutOverrides="HorizontalAlignment" Height="24" VerticalAlignment="Top"/>
-        <Label Content="Recipe Calories:" Margin="0,247,311,0" HorizontalAlignment="Right" Width="115" VerticalAlignment="Top"/>
+        <Label Content="Recipe Calories:" Margin="0,248,325,0" HorizontalAlignment="Right" Width="115" VerticalAlignment="Top" Foreground="#D6C18A" Height="25"/>
 
         <Button Content="Save" FontFamily="Verdana" Margin="0,0,0,10" Background="#A7A88A" Foreground="#3A6A59" Click="Button_Click" Height="37" VerticalAlignment="Bottom" HorizontalAlignment="Center" Width="86"/>
 
