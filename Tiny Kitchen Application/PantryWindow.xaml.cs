@@ -85,10 +85,12 @@ namespace Tiny_Kitchen_Application
 
         public void RemovePantryItem()
         {
+            
             List<String> lines = new List<String>();
             lines = File.ReadAllLines(path).ToList();
 
             string item = removeItem.Text;
+            pantry.DeleteItem(item); 
 
             var newLines = lines.Where(line => !line.Contains(item, StringComparison.OrdinalIgnoreCase));
             File.WriteAllLines(path, newLines); 
