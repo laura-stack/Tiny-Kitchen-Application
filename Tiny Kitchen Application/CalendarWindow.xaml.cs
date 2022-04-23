@@ -52,7 +52,7 @@ namespace Tiny_Kitchen_Application
             if (saveFileDialog.ShowDialog() == true)
                 File.WriteAllText(saveFileDialog.FileName,
                     selectedDate.Text + '\n' +
-                    "Notes: " + calendarNotes.Text + '\n' 
+                    calendarNotes.Text + '\n' 
                     );
         }
     }
