@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Collections;
 using System.Diagnostics; 
 using System.Collections.Generic;
@@ -80,6 +81,33 @@ namespace Tiny_Kitchen_Application
             {
                 sw.WriteLine(pantryItem.Text);
             }
+        }
+
+        public void RemovePantryItem()
+        {
+            List<String> lines = new List<String>();
+            lines = File.ReadAllLines(path).ToList();
+
+            string item = removeItem.Text;
+
+            var newLines = lines.Where(line => !line.Contains(item, StringComparison.OrdinalIgnoreCase));
+            File.WriteAllLines(path, newLines); 
+        }
+
+        public void DeletePantryItem_Click(object sender, RoutedEventArgs e)
+        {
+            RemoveItem_Popup.IsOpen = true;  
+        }
+
+        public void SaveRemoval_Click(object sender, RoutedEventArgs e)
+        {
+            RemovePantryItem();
+            RemoveItem_Popup.IsOpen = false; 
+        }
+
+        public void ExitPantryRemoval_Click(object sender, RoutedEventArgs e)
+        {
+            RemoveItem_Popup.IsOpen = false;
         }
 
         // public void 
