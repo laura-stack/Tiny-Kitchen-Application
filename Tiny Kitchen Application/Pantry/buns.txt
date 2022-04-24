@@ -1,0 +1,5 @@
+Name: burgers
+Ingredients: buns, patty
+Cook Time: 20
+Calories: 400
+Description: yep

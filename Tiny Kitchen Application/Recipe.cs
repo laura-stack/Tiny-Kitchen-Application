@@ -8,7 +8,7 @@ using System.Text.RegularExpressions;
 
 namespace Tiny_Kitchen_Application
 {
-    internal class Recipe : IRecipe
+    public class Recipe : IRecipe
     {
         public static string _recipeName { get; set; }
         public static string _cookTime { get; set; }
