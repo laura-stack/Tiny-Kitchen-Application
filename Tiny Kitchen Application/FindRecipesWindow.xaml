@@ -5,14 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Tiny_Kitchen_Application"
         mc:Ignorable="d"
-        Title="CollectionsWindow" Height="450" Width="450"
+        Title="SearchWindow" Height="450" Width="450"
         Background="#3A6A59">
 
-    <Grid>
+    <Grid Margin="0,6,0,-6">
+       
         <Button Content="Search" HorizontalAlignment="Left" Height="26" Margin="303,29,0,0" VerticalAlignment="Top" Width="127" Click="initiateSearch"/>
         <CheckBox Content="Vegan" HorizontalAlignment="Left" Height="21" Margin="303,62,0,0" VerticalAlignment="Top" Width="76" Checked="Vegan_CheckBox_Checked" Unchecked="Vegan_CheckBox_Unchecked"/>
         <TextBox Text="{Binding Path=userQuery, UpdateSourceTrigger=PropertyChanged}" 
             x:Name="Inputquery"
-            HorizontalAlignment="Left" Height="22" Margin="22,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="165"/>
+            HorizontalAlignment="Left" Height="22" Margin="22,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="165"></TextBox>
     </Grid>
 </Window>
