@@ -31,8 +31,21 @@
         </Popup>
         <Image HorizontalAlignment="Left" Height="49" Margin="384,33,0,0" VerticalAlignment="Top" Width="32" Source="/Add-icon.png"/>
         <Label Content="Add" FontFamily ="Verdana" HorizontalAlignment="Left" Margin="382,68,0,0" VerticalAlignment="Top"/>
-        <ListBox Name="PantryList_Box" Margin="75,87,123,64" Grid.RowSpan="2"/>
+        <Button Content="View Pantry" Click="ViewPantry_Click" Background="#A7A88A" FontFamily="Verdana" FontSize="14" HorizontalAlignment="Left" Margin="160,104,0,0" VerticalAlignment="Top" Height="45" Grid.RowSpan="2" Width="141"/>
+        <Button Content="Delete Pantry Item" Click="DeletePantryItem_Click" Background="#A7A88A" FontFamily="Verdana" FontSize="14" HorizontalAlignment="Left" Margin="159,45,0,0" Grid.Row="1" VerticalAlignment="Top" Height="47" Width="142"/>
+        <Popup Margin="10,10,0,13" Name="RemoveItem_Popup" HorizontalAlignment="Center" VerticalAlignment="Center" Placement="Center" Width="250" Height="200" AllowsTransparency="True" IsOpen="False">
+            <Grid Background="#A7A88A">
+                <Label Content="Enter Item to Remove:" Margin="0, 0, 0, 0" HorizontalAlignment="Center" Width="150" Height="50"  VerticalAlignment="Top"/>
+                <TextBox Name= "removeItem" Margin="0,50,10,0" TextWrapping="Wrap" HorizontalAlignment="Center" Width="150" Height="23" VerticalAlignment="Top"/>
+                <Button 
+                    FontFamily="Verdana" Margin = "5, 5, 5, 38" Background="#3A6A59" Click="SaveRemoval_Click" Height ="35" Width ="70" HorizontalAlignment ="Center" VerticalAlignment ="Bottom"/>
 
+                <Label Content="Save" FontFamily="Verdana" FontSize="16" FontWeight="Medium" HorizontalAlignment="Center" VerticalAlignment ="Bottom" Margin="5, 5, 5, 38"/>
+                <Button
+                    FontFamily="Verdana" Margin="0, 0, 0, 0" Background="#3A6A59" Click="ExitPantryRemoval_Click" Height="35" Width="70" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+                <Label Content="Quit" FontFamily="Verdana" FontSize="16" FontWeight="Medium" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0, 0, 0, 0"/>
+            </Grid>
+        </Popup>
 
 
     </Grid>
