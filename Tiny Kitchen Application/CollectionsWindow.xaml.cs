@@ -22,14 +22,15 @@ namespace Tiny_Kitchen_Application
     /// </summary>
     /// 
 
-    public class Collection
+    public class Collection 
     {
         string name; 
-        //ArrayList<Recipes> recipes;
+        List<Recipe> recipes;
 
         public Collection()
         {
             String name = "";
+            recipes = new List<Recipe>(); 
         }
 
         public void setCollectionName(String n)
@@ -40,6 +41,15 @@ namespace Tiny_Kitchen_Application
         public String getCollectionName()
         {
             return name;
+        }
+        
+        public List<Recipe> getRecipes()
+        {
+            return recipes;
+        }
+        public void addRecipeToCollection(Collection c, Recipe r)
+        {
+            c.recipes.Add(r);
         }
     }
     public partial class CollectionsWindow : Window
@@ -90,6 +100,25 @@ namespace Tiny_Kitchen_Application
             Popup_Window.IsOpen = false;
         }
 
+        public void AddRecipeToCollection_Click(object sender, RoutedEventArgs e)
+        {
+
+            
+            /*
+            string msg = "";
+            string[] rec = new string[Recipe.recipesList.Count];
+            for(int i = 0; i < Recipe.recipesList.Count; i++)
+            {
+                rec[i] = Recipe.recipesList[i].RecipeName; 
+            }
+            
+            foreach(string val in rec)
+            {
+                msg += val + "\n";
+            }
+            System.Windows.Forms.MessageBox.Show(msg);
+            */ 
+        }
        
     }
    

@@ -1,0 +1,5 @@
+Name: hot dogs
+Ingredients: wieners, buns
+Cook Time: 5
+Calories: 200
+Description: cook,eat

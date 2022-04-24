@@ -132,3 +132,5 @@ C:\Users\justi\Source\Repos\Tiny-Kitchen-Application\Tiny Kitchen Application\ob
 C:\Users\justi\Source\Repos\Tiny-Kitchen-Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\Tiny Kitchen Application.genruntimeconfig.cache
 C:\Users\justi\Source\Repos\Tiny-Kitchen-Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\Tiny_Kitchen_Application.CustomDialog.resources
 C:\Users\justi\Source\Repos\Tiny-Kitchen-Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\Tiny Kitchen Application.csproj.GenerateResource.cache
+C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\Tiny_Kitchen_Application.CustomDialog.resources
+C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\Tiny Kitchen Application.csproj.GenerateResource.cache
