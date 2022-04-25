@@ -86,14 +86,20 @@ namespace Tiny_Kitchen_Application
 
         public void ViewCollection_Click(object sender, RoutedEventArgs e)
         {
-            Microsoft.Win32.OpenFileDialog openFileDlg = new Microsoft.Win32.OpenFileDialog();
-            Nullable<bool> result = openFileDlg.ShowDialog();
+            System.Windows.Forms.OpenFileDialog openFile = new System.Windows.Forms.OpenFileDialog()
+            {
+                InitialDirectory = @"C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\Collections"
+            };
+            openFile.ShowDialog();
         }
 
         public void DeleteCollection_Click(object sender, RoutedEventArgs e)
         {
-            Microsoft.Win32.OpenFileDialog openFileDlg = new Microsoft.Win32.OpenFileDialog();
-            Nullable<bool> result = openFileDlg.ShowDialog();
+            System.Windows.Forms.OpenFileDialog openFile = new System.Windows.Forms.OpenFileDialog()
+            {
+                InitialDirectory = @"C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\Collections"
+            };
+            openFile.ShowDialog();
         }
         public void ExitCollectionCreator_Click(object sender, RoutedEventArgs e)
         {
@@ -104,20 +110,6 @@ namespace Tiny_Kitchen_Application
         {
             AddRecipe_Popup.IsOpen = true;
 
-            /*
-            string msg = "";
-            string[] rec = new string[Recipe.recipesList.Count];
-            for(int i = 0; i < Recipe.recipesList.Count; i++)
-            {
-                rec[i] = Recipe.recipesList[i].RecipeName; 
-            }
-            
-            foreach(string val in rec)
-            {
-                msg += val + "\n";
-            }
-            System.Windows.Forms.MessageBox.Show(msg);
-            */
         }
 
         public void SaveRecipeAdd_Click(object sender, RoutedEventArgs e)
@@ -133,7 +125,14 @@ namespace Tiny_Kitchen_Application
 
         public void SaveCollectionAdd_Click(object sender, RoutedEventArgs e)
         {
-            AddCollectionToAdd_Popup.IsOpen = true;
+            AddCollectionToAdd_Popup.IsOpen = false;
+
+            String filename = recipeName.Text + ".txt";
+            String sourcePath = @"C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\Recipes";
+            String targetPath = @"C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\Collections\" + collectionName.Text;
+            String sourceFile = System.IO.Path.Combine(sourcePath, filename);
+            String destFile = System.IO.Path.Combine(targetPath, filename);
+            System.IO.File.Copy(sourceFile, destFile, true); 
         }
 
         public void ExitCollectionAdd_Click(object sender, RoutedEventArgs e)
