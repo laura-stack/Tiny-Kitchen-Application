@@ -11,9 +11,6 @@
     <Compile Update="CollectionsWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="CustomDialog.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="FindRecipesWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
