@@ -22,15 +22,15 @@ namespace Tiny_Kitchen_Application
     /// </summary>
     /// 
 
-    public class Collection 
+    public class Collection
     {
-        string name; 
+        string name;
         List<Recipe> recipes;
 
         public Collection()
         {
             String name = "";
-            recipes = new List<Recipe>(); 
+            recipes = new List<Recipe>();
         }
 
         public void setCollectionName(String n)
@@ -42,7 +42,7 @@ namespace Tiny_Kitchen_Application
         {
             return name;
         }
-        
+
         public List<Recipe> getRecipes()
         {
             return recipes;
@@ -63,7 +63,7 @@ namespace Tiny_Kitchen_Application
         public void CreateCollectionButton_Click(object sender, RoutedEventArgs e)
         {
             Popup_Window.Visibility = System.Windows.Visibility.Visible;
-             Popup_Window.IsOpen = true; 
+            Popup_Window.IsOpen = true;
             //CreateCollection(); 
         }
 
@@ -102,8 +102,8 @@ namespace Tiny_Kitchen_Application
 
         public void AddRecipeToCollection_Click(object sender, RoutedEventArgs e)
         {
+            AddRecipe_Popup.IsOpen = true;
 
-            
             /*
             string msg = "";
             string[] rec = new string[Recipe.recipesList.Count];
@@ -117,12 +117,33 @@ namespace Tiny_Kitchen_Application
                 msg += val + "\n";
             }
             System.Windows.Forms.MessageBox.Show(msg);
-            */ 
+            */
         }
-       
-    }
-   
 
-    
+        public void SaveRecipeAdd_Click(object sender, RoutedEventArgs e)
+        {
+            AddRecipe_Popup.IsOpen = false;
+            AddCollectionToAdd_Popup.IsOpen = true; 
+        }
+
+        public void ExitRecipeAdd_Click(object sender, RoutedEventArgs e)
+        {
+            AddRecipe_Popup.IsOpen = false;
+        }
+
+        public void SaveCollectionAdd_Click(object sender, RoutedEventArgs e)
+        {
+            AddCollectionToAdd_Popup.IsOpen = true;
+        }
+
+        public void ExitCollectionAdd_Click(object sender, RoutedEventArgs e)
+        {
+            AddCollectionToAdd_Popup.IsOpen = false; 
+        }
+
+    }
+
+
+
 }
 
