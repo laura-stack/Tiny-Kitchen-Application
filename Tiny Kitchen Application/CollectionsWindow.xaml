@@ -30,8 +30,37 @@
         <Button Content="View My Collections" Click="ViewCollection_Click" FontFamily="Verdana"  Background="#A7A88A" FontSize="13" HorizontalAlignment="Center" VerticalAlignment="Top" Height="52" Width="194" Margin="0,181,0,0"/>
 
         <ToggleButton Content="Delete A Collection" Click ="DeleteCollection_Click" FontFamily="Verdana" Background="#A7A88A" FontSize="13" HorizontalAlignment="Center" Margin="0,266,0,0" VerticalAlignment="Top" Height="51" Width="195"/>
-        <Button Content="Add a Recipe To Collection" Click="AddRecipeToCollection_Click" FontFamily="Verdana"  Background="#A7A88A" FontSize="13" HorizontalAlignment="Left" VerticalAlignment="Top" Height="52" Width="194" Margin="131,104,0,0"/>
-        
+        <Button Content="Add a Recipe To Collection" Click="AddRecipeToCollection_Click" FontFamily="Verdana"  Background="#A7A88A" FontSize="13" HorizontalAlignment="Center" VerticalAlignment="Top" Height="52" Width="194" Margin="0,104,0,0"/>
+        <Popup Margin="10,10,0,13" Name="AddRecipe_Popup" HorizontalAlignment="Center" VerticalAlignment="Center" Placement="Center" Width="250" Height="200" AllowsTransparency="True" IsOpen="False">
+            <Grid Background="#A7A88A">
+                <Label Content="Enter Recipe To Add:" Margin="0, 0, 0, 0" HorizontalAlignment="Center" Width="150" Height="50"  VerticalAlignment="Top"/>
+                <TextBox Name= "recipeName" Margin="0,50,10,0" TextWrapping="Wrap" HorizontalAlignment="Center" Width="150" Height="23" VerticalAlignment="Top"/>
+
+                <Button 
+                    FontFamily="Verdana" Margin = "5, 5, 5, 38" Background="#3A6A59" Click="SaveRecipeAdd_Click" Height ="35" Width ="70" HorizontalAlignment ="Center" VerticalAlignment ="Bottom"/>
+
+                <Label Content="Save" FontFamily="Verdana" FontSize="16" FontWeight="Medium" HorizontalAlignment="Center" VerticalAlignment ="Bottom" Margin="5, 5, 5, 38"/>
+                <Button
+                    FontFamily="Verdana" Margin="0, 0, 0, 0" Background="#3A6A59" Click="ExitRecipeAdd_Click" Height="35" Width="70" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+                <Label Content="Quit" FontFamily="Verdana" FontSize="16" FontWeight="Medium" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0, 0, 0, 0"/>
+            </Grid>
+        </Popup>
+
+        <Popup Margin="10,10,0,13" Name="AddCollectionToAdd_Popup" HorizontalAlignment="Center" VerticalAlignment="Center" Placement="Center" Width="250" Height="200" AllowsTransparency="True" IsOpen="False">
+            <Grid Background="#A7A88A">
+                <Label Content="Enter Which Collection To Add To:" Margin="0, 0, 0, 0" HorizontalAlignment="Center" Width="200" Height="50"  VerticalAlignment="Top"/>
+                <TextBox Name= "collectionNameToAdd" Margin="0,50,10,0" TextWrapping="Wrap" HorizontalAlignment="Center" Width="150" Height="23" VerticalAlignment="Top"/>
+
+                <Button 
+                    FontFamily="Verdana" Margin = "5, 5, 5, 38" Background="#3A6A59" Click="SaveCollectionAdd_Click" Height ="35" Width ="70" HorizontalAlignment ="Center" VerticalAlignment ="Bottom"/>
+
+                <Label Content="Save" FontFamily="Verdana" FontSize="16" FontWeight="Medium" HorizontalAlignment="Center" VerticalAlignment ="Bottom" Margin="5, 5, 5, 38"/>
+                <Button
+                    FontFamily="Verdana" Margin="0, 0, 0, 0" Background="#3A6A59" Click="ExitCollectionAdd_Click" Height="35" Width="70" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+                <Label Content="Quit" FontFamily="Verdana" FontSize="16" FontWeight="Medium" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0, 0, 0, 0"/>
+            </Grid>
+        </Popup>
+
 
     </Grid>
 
