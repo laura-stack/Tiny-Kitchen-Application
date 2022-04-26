@@ -16,6 +16,7 @@ namespace Tiny_Kitchen_Application
         string concern = "";
         string items = "";
         string calAddOn = "&field=calories";
+        string pantryItems = "";
 
 
 
@@ -29,6 +30,7 @@ namespace Tiny_Kitchen_Application
 
         private void initiateSearch(object sender, RoutedEventArgs e)
         {
+            
             string userQuery = Inputquery.Text;
             string appID = "faef1f70";
             string apiKey = "382682029b8bfe878596ffd8332acfd6";
@@ -213,6 +215,13 @@ namespace Tiny_Kitchen_Application
         private void Vegge_CheckBox_Checked(object sender, RoutedEventArgs e)
         {
             concern = concernLink + "vegetarian";
+        }
+
+        private void Pantry_CheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+            string text = System.IO.File.ReadAllText(@"C:\Users\justi\source\repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\Pantry\Pantry.txt");
+            text.Replace(System.Environment.NewLine, " and ");
+            Inputquery.Text = text;
         }
     }
 }
