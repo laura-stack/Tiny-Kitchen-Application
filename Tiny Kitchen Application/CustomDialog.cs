@@ -58,8 +58,8 @@ namespace Tiny_Kitchen_Application
         private void cancel_Click(object sender, EventArgs e)
         {
             const string message =
-                "Are you sure that you would like to close the form?";
-            const string caption = "Form Closing";
+                "Are you sure that you would like to end your search?";
+            const string caption = "Stop Searching";
             var result = MessageBox.Show(message, caption,
                                          MessageBoxButtons.YesNo,
                                          MessageBoxIcon.Question);
