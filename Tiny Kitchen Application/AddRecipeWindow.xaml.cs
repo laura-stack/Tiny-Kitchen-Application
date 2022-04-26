@@ -41,7 +41,7 @@ namespace Tiny_Kitchen_Application
 
             SaveFileDialog saveFileDialog = new SaveFileDialog()
             {
-                InitialDirectory = @"C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\Recipes"
+                InitialDirectory = @"C:\Users\justi\source\repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\Recipes"
             };
             saveFileDialog.Filter = "Text file (*.txt)|*.txt|C# file (*.cs)|*.cs";
             if (saveFileDialog.ShowDialog() == true)

@@ -19,10 +19,8 @@ namespace Tiny_Kitchen_Application
     /// </summary>
     public partial class SettingsWindow : Window
     {
-
+       
         public static string emailProvider { get; set; }
-
-        public static bool calorieToggle { get; set; }
 
         public SettingsWindow()
         {
@@ -38,8 +36,7 @@ namespace Tiny_Kitchen_Application
                 emailProvider = cbi.Content.ToString();
             }
             MessageBox.Show(string.Format("Settings saved successfully.\n" + 
-                "Your current email provider is: " + emailProvider + "\n"+
-                "Calories turned off? " + calorieToggle));
+                "Your current email provider is: " + emailProvider));
         }
 
     }

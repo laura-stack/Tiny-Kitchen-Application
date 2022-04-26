@@ -1,0 +1,17 @@
+Name: Lemon Bars
+Ingredients: 
+      "1/2 pound unsalted butter, at room temperature",
+      "1/2 cup granulated sugar",
+      "2 cups flour",
+      "1/8 teaspoon kosher salt",
+      "For the full-size lemon layer:",
+      "2 1/2 cup granulated sugar",
+      "2 tbsp Lemon zest",
+      "1 cup freshly squeezed lemon juice",
+      "1 cup Flour",
+      "Confectioners’ sugar, for dusting"
+    ],
+    "calories": 5440.526896428
+Url: http://smittenkitchen.com/2008/01/lemon-bars/
+Calories:  5440.526896428302
+ 
