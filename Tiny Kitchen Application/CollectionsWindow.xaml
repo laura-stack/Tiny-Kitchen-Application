@@ -46,20 +46,7 @@
             </Grid>
         </Popup>
 
-        <Popup Margin="10,10,0,13" Name="AddCollectionToAdd_Popup" HorizontalAlignment="Center" VerticalAlignment="Center" Placement="Center" Width="250" Height="200" AllowsTransparency="True" IsOpen="False">
-            <Grid Background="#A7A88A">
-                <Label Content="Enter Which Collection To Add To:" Margin="0, 0, 0, 0" HorizontalAlignment="Center" Width="200" Height="50"  VerticalAlignment="Top"/>
-                <TextBox Name= "collectionNameToAdd" Margin="0,50,10,0" TextWrapping="Wrap" HorizontalAlignment="Center" Width="150" Height="23" VerticalAlignment="Top"/>
-
-                <Button 
-                    FontFamily="Verdana" Margin = "5, 5, 5, 38" Background="#3A6A59" Click="SaveCollectionAdd_Click" Height ="35" Width ="70" HorizontalAlignment ="Center" VerticalAlignment ="Bottom"/>
-
-                <Label Content="Save" FontFamily="Verdana" FontSize="16" FontWeight="Medium" HorizontalAlignment="Center" VerticalAlignment ="Bottom" Margin="5, 5, 5, 38"/>
-                <Button
-                    FontFamily="Verdana" Margin="0, 0, 0, 0" Background="#3A6A59" Click="ExitCollectionAdd_Click" Height="35" Width="70" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
-                <Label Content="Quit" FontFamily="Verdana" FontSize="16" FontWeight="Medium" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0, 0, 0, 0"/>
-            </Grid>
-        </Popup>
+        
 
 
     </Grid>

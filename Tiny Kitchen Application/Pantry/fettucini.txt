@@ -1,5 +1,0 @@
-Name: Fettucini
-Ingredients: Chicken, Parmesan, Noodles, Butter
-Cook Time: 20
-Calories: 450
-Description: cook for 10 mins
