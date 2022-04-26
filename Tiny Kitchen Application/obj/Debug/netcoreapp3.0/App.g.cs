@@ -48,11 +48,7 @@ namespace Tiny_Kitchen_Application {
         /// InitializeComponent
         /// </summary>
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
-<<<<<<< HEAD
         [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "5.0.16.0")]
-=======
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "6.0.4.0")]
->>>>>>> 1e19d9d7a2278e5962c252473edc0574b778c044
         public void InitializeComponent() {
             if (_contentLoaded) {
                 return;
@@ -78,11 +74,7 @@ namespace Tiny_Kitchen_Application {
         /// </summary>
         [System.STAThreadAttribute()]
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
-<<<<<<< HEAD
         [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "5.0.16.0")]
-=======
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "6.0.4.0")]
->>>>>>> 1e19d9d7a2278e5962c252473edc0574b778c044
         public static void Main() {
             Tiny_Kitchen_Application.App app = new Tiny_Kitchen_Application.App();
             app.InitializeComponent();

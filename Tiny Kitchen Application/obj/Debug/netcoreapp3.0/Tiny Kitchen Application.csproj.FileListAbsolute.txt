@@ -183,3 +183,4 @@ C:\Users\justi\Source\Repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application
 C:\Users\justi\Source\Repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\Tiny Kitchen Application.csproj.CoreCompileInputs.cache
 C:\Users\justi\Source\Repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\Tiny Kitchen Application.csproj.CopyComplete
 C:\Users\justi\Source\Repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\Tiny Kitchen Application.genruntimeconfig.cache
+C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll

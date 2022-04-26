@@ -148,7 +148,7 @@ namespace Tiny_Kitchen_Application
         {
             string directory = @"C:\Users\justi\source\repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\Recipes";
             string filename = message;
-            string path = Path.Combine(directory, filename+".txt");
+            string path = Path.Combine(directory, filename + ".txt");
 
             // Create a file to write to.
             using (StreamWriter sw = File.CreateText(path))
