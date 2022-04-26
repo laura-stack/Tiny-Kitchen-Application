@@ -1,5 +1,0 @@
-Name: collection
-Ingredients: yes
-Cook Time: 39284
-Calories: 100
-Description: cook

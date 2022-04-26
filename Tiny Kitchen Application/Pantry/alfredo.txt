@@ -1,5 +1,0 @@
-Name: Fettucini
-Ingredients: nooodles
-Cook Time: 10
-Calories: 20
-Description: cook em

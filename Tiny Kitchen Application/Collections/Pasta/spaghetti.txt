@@ -1,0 +1,5 @@
+Name: spaghetti
+Ingredients: noodles, butter, ground beef, pasta sauce
+Cook Time: 30
+Calories: 250
+Description: boil noodles, cook meat, put together 

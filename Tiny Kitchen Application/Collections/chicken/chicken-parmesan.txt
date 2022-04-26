@@ -1,0 +1,5 @@
+Name: chicken parmesan
+Ingredients: chicken, parmesan, bread crumbs, egg wash
+Cook Time: 30
+Calories: 300
+Description: cut breasts in half, dip in egg wash, cover in bread crumbs, bake at 350 for 20 minutes
