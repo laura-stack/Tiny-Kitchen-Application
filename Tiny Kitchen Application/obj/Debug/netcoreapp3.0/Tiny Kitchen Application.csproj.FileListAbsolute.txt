@@ -136,3 +136,50 @@ C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\ob
 C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\Tiny Kitchen Application.csproj.GenerateResource.cache
 C:\Users\autum\Source\Repos\Tiny-Kitchen-Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\Tiny_Kitchen_Application.CustomDialog.resources
 C:\Users\autum\Source\Repos\Tiny-Kitchen-Application\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\Tiny Kitchen Application.csproj.GenerateResource.cache
+C:\Users\justi\Source\Repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\Tiny Kitchen Application.csproj.AssemblyReference.cache
+C:\Users\justi\Source\Repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\MainWindow.baml
+C:\Users\justi\Source\Repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\AddRecipeWindow.g.cs
+C:\Users\justi\Source\Repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\CalendarWindow.g.cs
+C:\Users\justi\Source\Repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\CollectionsWindow.g.cs
+C:\Users\justi\Source\Repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\FindRecipesWindow.g.cs
+C:\Users\justi\Source\Repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\MainWindow.g.cs
+C:\Users\justi\Source\Repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\PantryWindow.g.cs
+C:\Users\justi\Source\Repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\RecipeWindow.g.cs
+C:\Users\justi\Source\Repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\SettingsWindow.g.cs
+C:\Users\justi\Source\Repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\ShareWindow.g.cs
+C:\Users\justi\Source\Repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\ShoppingListWindow.g.cs
+C:\Users\justi\Source\Repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\App.g.cs
+C:\Users\justi\Source\Repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\Tiny Kitchen Application_MarkupCompile.cache
+C:\Users\justi\Source\Repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\Tiny Kitchen Application_MarkupCompile.lref
+C:\Users\justi\Source\Repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\Tiny Kitchen Application.dll
+C:\Users\justi\Source\Repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\Tiny Kitchen Application.pdb
+C:\Users\justi\Source\Repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\bin\Debug\netcoreapp3.0\Tiny Kitchen Application.exe
+C:\Users\justi\Source\Repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\bin\Debug\netcoreapp3.0\Tiny Kitchen Application.deps.json
+C:\Users\justi\Source\Repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\bin\Debug\netcoreapp3.0\Tiny Kitchen Application.runtimeconfig.json
+C:\Users\justi\Source\Repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\bin\Debug\netcoreapp3.0\Tiny Kitchen Application.runtimeconfig.dev.json
+C:\Users\justi\Source\Repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\bin\Debug\netcoreapp3.0\Tiny Kitchen Application.dll
+C:\Users\justi\Source\Repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\bin\Debug\netcoreapp3.0\Tiny Kitchen Application.pdb
+C:\Users\justi\Source\Repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\bin\Debug\netcoreapp3.0\GalaSoft.MvvmLight.Extras.dll
+C:\Users\justi\Source\Repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\bin\Debug\netcoreapp3.0\GalaSoft.MvvmLight.Platform.dll
+C:\Users\justi\Source\Repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\bin\Debug\netcoreapp3.0\GalaSoft.MvvmLight.dll
+C:\Users\justi\Source\Repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\bin\Debug\netcoreapp3.0\System.Windows.Interactivity.dll
+C:\Users\justi\Source\Repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\justi\Source\Repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\App.baml
+C:\Users\justi\Source\Repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\AddRecipeWindow.baml
+C:\Users\justi\Source\Repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\CalendarWindow.baml
+C:\Users\justi\Source\Repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\CollectionsWindow.baml
+C:\Users\justi\Source\Repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\FindRecipesWindow.baml
+C:\Users\justi\Source\Repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\PantryWindow.baml
+C:\Users\justi\Source\Repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\RecipeWindow.baml
+C:\Users\justi\Source\Repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\SettingsWindow.baml
+C:\Users\justi\Source\Repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\ShareWindow.baml
+C:\Users\justi\Source\Repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\ShoppingListWindow.baml
+C:\Users\justi\Source\Repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\Tiny Kitchen Application.g.resources
+C:\Users\justi\Source\Repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\Tiny_Kitchen_Application.CustomDialog.resources
+C:\Users\justi\Source\Repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\Tiny Kitchen Application.csproj.GenerateResource.cache
+C:\Users\justi\Source\Repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\Tiny Kitchen Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\justi\Source\Repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\Tiny Kitchen Application.AssemblyInfoInputs.cache
+C:\Users\justi\Source\Repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\Tiny Kitchen Application.AssemblyInfo.cs
+C:\Users\justi\Source\Repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\Tiny Kitchen Application.csproj.CoreCompileInputs.cache
+C:\Users\justi\Source\Repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\Tiny Kitchen Application.csproj.CopyComplete
+C:\Users\justi\Source\Repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\obj\Debug\netcoreapp3.0\Tiny Kitchen Application.genruntimeconfig.cache

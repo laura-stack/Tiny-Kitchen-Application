@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
+using System.Net;
 using System.Text;
 using System.Windows.Forms;
 
@@ -15,16 +17,36 @@ namespace Tiny_Kitchen_Application
             InitializeComponent();
         }
         string add = "Add to Collection";
-        string next = "Next Recipe";
+        string end = "Cancel Search";
+        bool continueS = true;
+        APIrecipe search = new APIrecipe();
         public CustomDialog(string message, string list, string link, string picLink)
         {
+            
             button1.Text = add;
-            button2.Text = next;
+            button2.Text = end;
             label1.Text = message;
-            listBox1.Text = list;
+            textBox1.Text = list;
             linkLabel1.Text = link;
-            pictureBox2.LoadAsync(picLink);
+            pictureBox2.ImageLocation=picLink;
+            continueS = true;
 
+        }
+
+        public void SetBox(string message, string list, string link, string picLink)
+        {
+            this.button1.Text = add;
+            this.button2.Text = end;
+            this.label1.Text = message;
+            this.textBox1.Text = list;
+            this.linkLabel1.Text = link;
+            this.pictureBox2.LoadAsync(picLink);
+
+        }
+
+        public bool GetBox()
+        {
+            return this.continueS;
         }
 
         private void addToCollection_Click(object sender, EventArgs e)
@@ -33,9 +55,37 @@ namespace Tiny_Kitchen_Application
             System.Windows.MessageBox.Show("Saved!"); 
         }
 
-        private void nextRecipe_Click(object sender, EventArgs e)
+        private void cancel_Click(object sender, EventArgs e)
         {
-            System.Windows.MessageBox.Show("Next!");
+            const string message =
+                "Are you sure that you would like to close the form?";
+            const string caption = "Form Closing";
+            var result = MessageBox.Show(message, caption,
+                                         MessageBoxButtons.YesNo,
+                                         MessageBoxIcon.Question);
+
+            // If the no button was pressed ...
+            if (result == DialogResult.No)
+            {
+                this.Close();
+            }
+            else if (result == DialogResult.Yes)
+            {
+                this.continueS=false;
+                this.Close();
+            }
+
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            var psi = new ProcessStartInfo
+            {
+                FileName = linkLabel1.Text,
+                UseShellExecute = true
+            };
+            Process.Start(psi);
+            
         }
     }
 }
