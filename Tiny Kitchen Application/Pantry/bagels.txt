@@ -1,5 +1,0 @@
-Name: bagels
-Ingredients: bagels, cream cheese
-Cook Time: 5
-Calories: 100
-Description: toaster, cream cheese, enjoy

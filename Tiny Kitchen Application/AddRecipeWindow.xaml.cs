@@ -39,7 +39,10 @@ namespace Tiny_Kitchen_Application
         private void Button_Click(object sender, RoutedEventArgs e)
         {
 
-            SaveFileDialog saveFileDialog = new SaveFileDialog();
+            SaveFileDialog saveFileDialog = new SaveFileDialog()
+            {
+                InitialDirectory = @"C:\Users\justi\source\repos\Tiny-Kitchen-ApplicationMON\Tiny Kitchen Application\Recipes"
+            };
             saveFileDialog.Filter = "Text file (*.txt)|*.txt|C# file (*.cs)|*.cs";
             if (saveFileDialog.ShowDialog() == true)
                 File.WriteAllText(saveFileDialog.FileName,

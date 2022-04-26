@@ -54,7 +54,7 @@ namespace Tiny_Kitchen_Application {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Tiny Kitchen Application;component/shoppinglistwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Tiny Kitchen Application;V1.0.0.0;component/shoppinglistwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\ShoppingListWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -8,12 +8,21 @@
         Title="SearchWindow" Height="450" Width="450"
         Background="#3A6A59">
 
-    <Grid Margin="0,6,0,-6">
-       
+    <Grid Margin="0,6,0,-6" Opacity="0.995">
+
         <Button Content="Search" HorizontalAlignment="Left" Height="26" Margin="303,29,0,0" VerticalAlignment="Top" Width="127" Click="initiateSearch"/>
-        <CheckBox Content="Vegan" HorizontalAlignment="Left" Height="21" Margin="303,62,0,0" VerticalAlignment="Top" Width="76" Checked="Vegan_CheckBox_Checked" Unchecked="Vegan_CheckBox_Unchecked"/>
+        <CheckBox Content="Vegan" HorizontalAlignment="Left" Height="21" Margin="22,116,0,0" VerticalAlignment="Top" Width="76" Checked="Vegan_CheckBox_Checked"/>
         <TextBox Text="{Binding Path=userQuery, UpdateSourceTrigger=PropertyChanged}" 
             x:Name="Inputquery"
-            HorizontalAlignment="Left" Height="22" Margin="22,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="165"></TextBox>
+            HorizontalAlignment="Left" Height="22" Margin="22,47,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="165"></TextBox>
+        <CheckBox Content="Dairy Free" HorizontalAlignment="Left" Height="22" Margin="22,83,0,0" VerticalAlignment="Top" Width="76" Checked="DF_CheckBox_Checked"/>
+        <CheckBox Content="Keto" HorizontalAlignment="Left" Height="21" Margin="22,148,0,0" VerticalAlignment="Top" Width="76" Checked="Keto_CheckBox_Checked"/>
+        <CheckBox Content="Kosher" HorizontalAlignment="Left" Height="21" Margin="22,182,0,0" VerticalAlignment="Top" Width="76" Checked="Kosher_CheckBox_Checked"/>
+        <CheckBox Content="Vegetarian" HorizontalAlignment="Left" Height="21" Margin="22,217,0,0" VerticalAlignment="Top" Width="76" Checked="Vegge_CheckBox_Checked"/>
+        <TextBox Text="{Binding Path=exclude, UpdateSourceTrigger=PropertyChanged}" 
+            x:Name="ExcludeItems" TextWrapping="Wrap" Margin="12,343,225,23" />
+        <CheckBox Content="Hide Calories" HorizontalAlignment="Left" Height="21" Margin="303,71,0,0" VerticalAlignment="Top" Width="107" Checked="Cal_CheckBox_Checked"/>
+        <Label Content="Enter preferred  number of ingredients in Min-Max format:" Margin="12,286,20,96" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom"/>
+        <Label Content="Enter Search:" Margin="0,11,277,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="151"/>
     </Grid>
 </Window>

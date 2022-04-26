@@ -27,6 +27,5 @@
 
         <Button Content="Save" Click="Test_Click" Margin="0,249,0,0" FontFamily="Verdana" Background="#A7A88A" Foreground="#3A6A59" Width="90" Height="45" VerticalAlignment="Top" HorizontalAlignment="Center" Grid.Row="2"/>
         <Label Content="Email:" Margin="29,2,325,0" FontFamily="Verdana" FontSize="22" Grid.Row="2" Height="38" VerticalAlignment="Top"/>
-        <CheckBox Content="Calorie Count Off" IsChecked="{Binding calorieToggle}" Margin="0,0,180,217" FontFamily="Verdana" FontSize="25" Height="31" VerticalAlignment="Bottom" d:LayoutOverrides="Height" HorizontalAlignment="Right" Width="241" Grid.Row="2"/>
     </Grid>
 </Window>

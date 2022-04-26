@@ -1,22 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "1Dfd50VZeBwIZhXRcwuo/BBFHKg1iZErY+SIIDkDXRJTBind7MqRcR4as0sqY0uFLbTdwLsb1PYjInJS7LXR3g==",
+  "dgSpecHash": "rlAjCUIm3j3gvDZzYOpmYnURbOuqjpYUkISm3VglEIO+bnmywc2FgsnB2A2sHve7iyP6Iib7dIaXXedXhTVQnQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\chach\\source\\repos\\Tiny Kitchen Application\\Tiny Kitchen Application\\Tiny Kitchen Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chach\\.nuget\\packages\\mvvmlightlibs\\5.4.1.1\\mvvmlightlibs.5.4.1.1.nupkg.sha512",
+    "C:\\Users\\chach\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\chach\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.0.3\\microsoft.netcore.app.host.win-x64.3.0.3.nupkg.sha512",
     "C:\\Users\\chach\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
     "C:\\Users\\chach\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512",
     "C:\\Users\\chach\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512"
   ],
   "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\chach\\source\\repos\\Tiny Kitchen Application\\Tiny Kitchen Application\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    },
     {
       "code": "NU1701",
       "level": "Warning",

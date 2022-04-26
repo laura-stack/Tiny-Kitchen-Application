@@ -1,0 +1,5 @@
+Name: fettucini
+Ingredients: fettucini noodles, garlic, butter, parmesan, heavy cream
+Cook Time: 30
+Calories: 300
+Description: cook noodles, add sauce

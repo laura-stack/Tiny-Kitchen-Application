@@ -1,0 +1,5 @@
+Name: lemon chicken
+Ingredients: chicken, lemon, salt, pepper
+Cook Time: 15
+Calories: 150
+Description: cook chicken, add lemon, add salt, add pepper, cook until chicken is at 160

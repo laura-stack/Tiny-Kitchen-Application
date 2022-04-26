@@ -116,24 +116,22 @@ namespace Tiny_Kitchen_Application
         {
             AddRecipe_Popup.IsOpen = false;
             //AddCollectionToAdd_Popup.IsOpen = true; 
-
+            
             string filename = recipeName.Text + ".txt";
             //string colName = collectionName.Text + ""; 
             string sourcePath = @"C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\Recipes";
             string targetPath = @"C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\Collections";
-            // string finalPath = System.IO.Path.Combine(targetPath, colName);
+           // string finalPath = System.IO.Path.Combine(targetPath, colName);
             string sourceFile = System.IO.Path.Combine(sourcePath, filename);
-            string destFile = System.IO.Path.Combine(targetPath, filename);
-            System.IO.File.Copy(sourceFile, destFile, true);
+            string destFile = System.IO.Path.Combine(targetPath, filename) ;
+            System.IO.File.Copy(sourceFile, destFile, true); 
         }
 
         public void ExitRecipeAdd_Click(object sender, RoutedEventArgs e)
         {
             AddRecipe_Popup.IsOpen = false;
         }
-
-
-
+       
     }
 
 
