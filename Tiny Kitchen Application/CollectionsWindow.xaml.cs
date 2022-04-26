@@ -22,15 +22,15 @@ namespace Tiny_Kitchen_Application
     /// </summary>
     /// 
 
-    public class Collection 
+    public class Collection
     {
-        string name; 
+        string name;
         List<Recipe> recipes;
 
         public Collection()
         {
             String name = "";
-            recipes = new List<Recipe>(); 
+            recipes = new List<Recipe>();
         }
 
         public void setCollectionName(String n)
@@ -42,7 +42,7 @@ namespace Tiny_Kitchen_Application
         {
             return name;
         }
-        
+
         public List<Recipe> getRecipes()
         {
             return recipes;
@@ -63,7 +63,7 @@ namespace Tiny_Kitchen_Application
         public void CreateCollectionButton_Click(object sender, RoutedEventArgs e)
         {
             Popup_Window.Visibility = System.Windows.Visibility.Visible;
-             Popup_Window.IsOpen = true; 
+            Popup_Window.IsOpen = true;
             //CreateCollection(); 
         }
 
@@ -86,14 +86,20 @@ namespace Tiny_Kitchen_Application
 
         public void ViewCollection_Click(object sender, RoutedEventArgs e)
         {
-            Microsoft.Win32.OpenFileDialog openFileDlg = new Microsoft.Win32.OpenFileDialog();
-            Nullable<bool> result = openFileDlg.ShowDialog();
+            System.Windows.Forms.OpenFileDialog openFile = new System.Windows.Forms.OpenFileDialog()
+            {
+                InitialDirectory = @"C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\Collections"
+            };
+            openFile.ShowDialog();
         }
 
         public void DeleteCollection_Click(object sender, RoutedEventArgs e)
         {
-            Microsoft.Win32.OpenFileDialog openFileDlg = new Microsoft.Win32.OpenFileDialog();
-            Nullable<bool> result = openFileDlg.ShowDialog();
+            System.Windows.Forms.OpenFileDialog openFile = new System.Windows.Forms.OpenFileDialog()
+            {
+                InitialDirectory = @"C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\Collections"
+            };
+            openFile.ShowDialog();
         }
         public void ExitCollectionCreator_Click(object sender, RoutedEventArgs e)
         {
@@ -102,27 +108,35 @@ namespace Tiny_Kitchen_Application
 
         public void AddRecipeToCollection_Click(object sender, RoutedEventArgs e)
         {
+            AddRecipe_Popup.IsOpen = true;
 
-            
-            /*
-            string msg = "";
-            string[] rec = new string[Recipe.recipesList.Count];
-            for(int i = 0; i < Recipe.recipesList.Count; i++)
-            {
-                rec[i] = Recipe.recipesList[i].RecipeName; 
-            }
-            
-            foreach(string val in rec)
-            {
-                msg += val + "\n";
-            }
-            System.Windows.Forms.MessageBox.Show(msg);
-            */ 
         }
-       
-    }
-   
 
-    
+        public void SaveRecipeAdd_Click(object sender, RoutedEventArgs e)
+        {
+            AddRecipe_Popup.IsOpen = false;
+            //AddCollectionToAdd_Popup.IsOpen = true; 
+
+            string filename = recipeName.Text + ".txt";
+            //string colName = collectionName.Text + ""; 
+            string sourcePath = @"C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\Recipes";
+            string targetPath = @"C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\Collections";
+            // string finalPath = System.IO.Path.Combine(targetPath, colName);
+            string sourceFile = System.IO.Path.Combine(sourcePath, filename);
+            string destFile = System.IO.Path.Combine(targetPath, filename);
+            System.IO.File.Copy(sourceFile, destFile, true);
+        }
+
+        public void ExitRecipeAdd_Click(object sender, RoutedEventArgs e)
+        {
+            AddRecipe_Popup.IsOpen = false;
+        }
+
+
+
+    }
+
+
+
 }
 
