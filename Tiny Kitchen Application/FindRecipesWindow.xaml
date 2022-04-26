@@ -24,5 +24,6 @@
         <CheckBox Content="Hide Calories" HorizontalAlignment="Left" Height="21" Margin="303,71,0,0" VerticalAlignment="Top" Width="107" Checked="Cal_CheckBox_Checked"/>
         <Label Content="Enter preferred  number of ingredients in Min-Max format:" Margin="12,286,20,96" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom"/>
         <Label Content="Enter Search:" Margin="0,11,277,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="151"/>
+        <CheckBox Content="Use Pantry" HorizontalAlignment="Left" Height="21" Margin="303,104,0,0" VerticalAlignment="Top" Width="107" Checked="Pantry_CheckBox_Checked"/>
     </Grid>
 </Window>

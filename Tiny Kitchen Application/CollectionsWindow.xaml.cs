@@ -132,6 +132,14 @@ namespace Tiny_Kitchen_Application
             AddRecipe_Popup.IsOpen = false;
         }
        
+        public void ViewSavedRecipes_Click(object sender, RoutedEventArgs e)
+        {
+            System.Windows.Forms.OpenFileDialog openFile = new System.Windows.Forms.OpenFileDialog()
+            {
+                InitialDirectory = @"C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\Recipes"
+            };
+            openFile.ShowDialog();
+        }
     }
 
 

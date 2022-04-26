@@ -45,6 +45,11 @@
                 <Label Content="Quit" FontFamily="Verdana" FontSize="16" FontWeight="Medium" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0, 0, 0, 0"/>
             </Grid>
         </Popup>
+        <Button Click="ViewSavedRecipes_Click" FontFamily="Verdana" FontSize="10" Background ="#A7A88A" HorizontalAlignment="Left" Margin="26,26,0,0" VerticalAlignment="Top" Height="68" Width="79"/>
+        <Label Content="Saved Recipes" FontSize="10" FontFamily="Verdana" HorizontalAlignment="Left" Margin="23,68,0,0" VerticalAlignment="Top"/>
+        <Image HorizontalAlignment="Left" Height="49" Margin="49,35,0,0" VerticalAlignment="Top" Width="32" Source="Share-Window-icon.png"/>
+
+
 
 
 

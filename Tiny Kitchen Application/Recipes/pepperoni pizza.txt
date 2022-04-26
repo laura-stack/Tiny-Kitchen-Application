@@ -1,0 +1,5 @@
+Name: pizza
+Ingredients: pizza dough, pepperoni, mozzarella, pizza sauce
+Cook Time: 50
+Calories: 350
+Description: roll out dough, add toppings, bake in over at 350 for 50 mins

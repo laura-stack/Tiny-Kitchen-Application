@@ -26,25 +26,25 @@ namespace Tiny_Kitchen_Application
     public class Pantry
     {
 
-        ArrayList items;
+        public ArrayList itemsInPantry;
 
         public Pantry()
         {
-            items = new ArrayList();
+            itemsInPantry = new ArrayList();
         }
 
         public ArrayList getItems()
         {
-            return items;
+            return itemsInPantry;
         }
         public void AddItem(String item)
         {
-            items.Add(item);
+            itemsInPantry.Add(item);
         }
 
         public void DeleteItem(String item)
         {
-            items.Remove(item);
+            itemsInPantry.Remove(item);
         }
 
     }
@@ -52,6 +52,8 @@ namespace Tiny_Kitchen_Application
     public partial class PantryWindow : Window
     {
         Pantry pantry = new Pantry();
+        int i = 0;
+        public ArrayList itemsInPantry;
         //public System.Windows.Forms.ListBox.ObjectCollection Items { get; }
         //ListBox listbox = new ListBox(); 
 
@@ -70,13 +72,13 @@ namespace Tiny_Kitchen_Application
         {
             pantry.AddItem(pantryItem.Text);
             Pantry_Popup.IsOpen = false;
-
+            itemsInPantry = new ArrayList();
             AddPantryItem();
         }
 
         public void AddPantryItem()
         {
-
+            itemsInPantry.Add(pantryItem.Text);
             using (StreamWriter sw = File.AppendText(path))
             {
                 sw.WriteLine(pantryItem.Text);
@@ -85,12 +87,13 @@ namespace Tiny_Kitchen_Application
 
         public void RemovePantryItem()
         {
-
+            pantry.DeleteItem(removeItem.Text);
             List<String> lines = new List<String>();
             lines = File.ReadAllLines(path).ToList();
 
             string item = removeItem.Text;
-            pantry.DeleteItem(item);
+           
+            itemsInPantry.Remove(removeItem.Text);
 
             var newLines = lines.Where(line => !line.Contains(item, StringComparison.OrdinalIgnoreCase));
             File.WriteAllLines(path, newLines);
@@ -121,15 +124,15 @@ namespace Tiny_Kitchen_Application
 
         public void ViewPantry_Click(object sender, RoutedEventArgs e)
         {
-            OpenFileDialog openFile = new OpenFileDialog()
+            System.Windows.Forms.OpenFileDialog openFile = new System.Windows.Forms.OpenFileDialog()
             {
                 InitialDirectory = @"C:\Users\chach\source\repos\Tiny Kitchen Application\Tiny Kitchen Application\Pantry"
             };
             openFile.ShowDialog();
-
-
+        }
+            
         }
 
 
     }
-}
+

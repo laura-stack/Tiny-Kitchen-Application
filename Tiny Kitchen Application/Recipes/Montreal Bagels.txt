@@ -1,0 +1,18 @@
+Name: Montreal Bagels
+Ingredients: 
+      "2 tsp granulated sugar",
+      "1 cup lukewarm water",
+      "1 tbsp active dry yeast",
+      "2 tbsp wheat malt syrup",
+      "1/2 cup warm water",
+      "1 large egg, room temperature",
+      "1 tbsp vegetable oil",
+      "2 tsp salt",
+      "4 cup all-purpose flour",
+      "3 tbsp honey",
+      "1 cup hulled sesame seeds or black poppy seeds or some of each"
+    ],
+    "calories": 3236.
+Url: http://www.sevenspoons.net/blog/2009/7/17/not-a-moments-hesitation.html
+Calories:  3236.968
+ 

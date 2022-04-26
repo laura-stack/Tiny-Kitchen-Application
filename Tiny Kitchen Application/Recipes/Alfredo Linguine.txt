@@ -1,0 +1,12 @@
+Name: Alfredo Linguine
+Ingredients: 
+      "1 tbsp. I Can't Believe It's Not Butter!® Spread",
+      "½ c. walnuts",
+      "1 large clove garlic",
+      "1 jar Bertolli® Creamy Alfredo Sauce",
+      "8 oz. linguine"
+    ],
+    "calories": 2175.53284
+Url: http://www.delish.com/cooking/recipe-ideas/recipes/a7922/alfredo-linguine-recipe/
+Calories:  2175.53284635
+ 
